@@ -13,9 +13,9 @@ slack.on('open', function () {
 slack.on('message', function (message) {
   console.log('A new message: ', message.text);
   
-  var channel = slack.getChannelGroupOrDMByID(message.channel);
+  // var channel = slack.getChannelGroupOrDMByID(message.channel);
   
-  channel.send('codybot has recieved your message but doesn\'t know what to do.');
+  // channel.send('codybot has recieved your message but doesn\'t know what to do.');
 });
 
 slack.on('error', function (err) {
