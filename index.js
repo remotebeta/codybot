@@ -11,14 +11,11 @@ slack.on('open', function () {
 });
 
 slack.on('message', function (message) {
-  console.log('A new message');
-  slack.emit({
-    type: 'message',
-    channel: 'C0J3GUR0V',
-    test: 'The codybot recieved your message.'
-  }, function (result) {
-    console.log(result);
-  })
+  console.log('A new message: ', message.text);
+  
+  var channel = slack.getChannelGroupOrDMByID(message.channel);
+  
+  channel.send('codybot has recieved your message but doesn\'t know what to do.');
 });
 
 slack.on('error', function (err) {
