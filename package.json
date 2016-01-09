@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/codydaig/codybot/issues"
   },
-  "homepage": "https://github.com/codydaig/codybot#readme"
+  "homepage": "https://github.com/codydaig/codybot#readme",
+  "dependencies": {
+    "slack-client": "^1.5.1"
+  }
 }
