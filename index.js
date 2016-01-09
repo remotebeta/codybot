@@ -12,6 +12,13 @@ slack.on('open', function () {
 
 slack.on('message', function (message) {
   console.log('A new message');
+  slack.emit({
+    type: 'message',
+    channel: 'C0J3GUR0V',
+    test: 'The codybot recieved your message.'
+  }, function (result) {
+    console.log(result);
+  })
 });
 
 slack.on('error', function (err) {
