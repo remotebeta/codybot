@@ -1,0 +1,19 @@
+{
+  "name": "codybot",
+  "version": "0.0.1",
+  "description": "Cody's Slack Bot. A child of sshbot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codydaig/codybot.git"
+  },
+  "author": "Cody B. Daig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codydaig/codybot/issues"
+  },
+  "homepage": "https://github.com/codydaig/codybot#readme"
+}
