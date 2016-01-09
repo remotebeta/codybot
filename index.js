@@ -1,14 +1,21 @@
 'use strict';
 
-var WebClient = require('slack-client').WebClient;
-var RtmClient = require('slack-client').RtmClient;
+var Slack = require('slack-client');
 
 var token = '' || process.env.SLACK_API_TOKEN;
 
-var webClient = new WebClient(token);
-var rtm = new RtmClient(webClient, {logLevel: 'debug'});
-rtm.start();
+var slack = new Slack(token, true, true);
 
-rtm.on('message', function (message) {
+slack.on('open', function () {
+  console.log("Connected to ", slack.team.name, "  as @", slack.self.name);
+});
+
+slack.on('message', function (message) {
   console.log(message);
 });
+
+slack.on('error', function (err) {
+  console.error(err);
+});
+
+slack.login();
