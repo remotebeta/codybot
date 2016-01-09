@@ -11,7 +11,7 @@ slack.on('open', function () {
 });
 
 slack.on('message', function (message) {
-  console.log(message);
+  console.log('A new message');
 });
 
 slack.on('error', function (err) {
