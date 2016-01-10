@@ -23,6 +23,7 @@ slack.on('message', function (message) {
 
     var msgArr = message.text.split(' ');
     var cmd = msgArr[1];
+    console.log("cmd: ", cmd);
     if(typeof commands[cmd] === 'function') {
       msgArr.splice(0,2);
       commands[cmd](msgArr, message);
