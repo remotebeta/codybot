@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/codydaig/codybot#readme",
   "dependencies": {
+    "cassandra-driver": "^3.0.0",
     "slack-client": "^1.5.1"
   }
 }
