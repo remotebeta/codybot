@@ -9,7 +9,7 @@ var token = '' || process.env.SLACK_API_TOKEN;
 
 var slack = new Slack(token, true, true);
 
-mongoose.connect('mongodb://mongo1.sshbot.com/codybot');
+mongoose.connect('mongodb://localhost:4321/codybot');
 
 var messageSchema = mongoose.Schema({
     type: String,
