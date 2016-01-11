@@ -1,23 +1,47 @@
 'use strict';
 
+var mongoose = require('mongoose');
 var Slack = require('slack-client');
 
-var db = require('./lib/db.js');
 var commands = require('./lib/commands.js');
 
 var token = '' || process.env.SLACK_API_TOKEN;
 
 var slack = new Slack(token, true, true);
 
-db.start(function () {
-  slack.on('open', function () {
-    console.log("Connected to ", slack.team.name, "  as @", slack.self.name);
+mongoose.connect('mongodb://mongo1.sshbot.com/codybot');
+
+var messageSchema = mongoose.Schema({
+    type: String,
+    channel: String,
+    user: String,
+    text: String,
+    ts: String,
+    team: String
+});
+
+var Message = mongoose.model('Message', messageSchema);
+
+slack.on('open', function () {
+  console.log("Connected to ", slack.team.name, "  as @", slack.self.name);
+});
+
+slack.on('message', function (message) {
+  console.log('A new message: ', message.text);
+
+  var msg = new Message({
+    type: message.type,
+    channel: message.channel,
+    user: message.user,
+    text: message.text,
+    ts: message.ts,
+    team: message.team
   });
 
-  slack.on('message', function (message) {
-    console.log('A new message: ', message.text);
-
-    db.insertMessage(message.type, message.channel, message.user, message.text, message.ts, message.team);
+  msg.save(function (err, msg) {
+    if(err) {
+      return console.log(err);
+    }
 
     var channel = slack.getChannelGroupOrDMByID(message.channel);
     
@@ -36,10 +60,10 @@ db.start(function () {
       }
     }
   });
-
-  slack.on('error', function (err) {
-    console.error(err);
-  });
-
-  slack.login();
 });
+
+slack.on('error', function (err) {
+  console.error(err);
+});
+
+slack.login();
