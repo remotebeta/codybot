@@ -17,7 +17,7 @@ var Message = mongoose.model('Message', messageSchema);
 
 var rejectionSchema = mongoose.Schema({
   companyName: String,
-  rejectedUsers: Array
+  user: String
 });
 
 mongoose.model('Rejection', rejectionSchema);
