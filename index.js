@@ -1,26 +1,29 @@
 'use strict';
 
 var mongoose = require('mongoose');
-var Slack = require('slack-client');
-
-var commands = require('./lib/commands.js');
-
-var token = '' || process.env.SLACK_API_TOKEN;
-
-var slack = new Slack(token, true, true);
 
 mongoose.connect('mongodb://localhost:4321/codybot');
 
 var messageSchema = mongoose.Schema({
-    type: String,
-    channel: String,
-    user: String,
-    text: String,
-    ts: String,
-    team: String
+  type: String,
+  channel: String,
+  user: String,
+  text: String,
+  ts: String,
+  team: String
 });
 
 var Message = mongoose.model('Message', messageSchema);
+
+var rejectionSchema = mongoose.Schema({
+  companyName: String,
+  rejectedUsers: Array
+});
+
+mongoose.model('Rejection', rejectionSchema);
+
+var commands = require('./lib/commands.js');
+var slack = require('./lib/slack.js');
 
 slack.on('open', function () {
   console.log("Connected to ", slack.team.name, "  as @", slack.self.name);
