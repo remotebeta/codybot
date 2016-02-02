@@ -1,5 +1,7 @@
 'ust strict';
 
+var slack = require('./slack.js');
+
 module.exports = beatbox;
 
 function beatbox(args, message) {
