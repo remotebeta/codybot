@@ -1,7 +1,7 @@
 'use strict';
 
 var mongoose = require('mongoose');
-var slack = require('./slack.js');
+var slack = require('../lib/slack.js');
 
 var Rejection = mongoose.model('Rejection');
 

@@ -1,6 +1,6 @@
 'ust strict';
 
-var slack = require('./slack.js');
+var slack = require('../lib/slack.js');
 
 module.exports = beatbox;
 
