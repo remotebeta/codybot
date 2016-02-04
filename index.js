@@ -69,7 +69,7 @@ function slackMessage (slack, message) {
     var channel = slack.getChannelGroupOrDMByID(message.channel);
     
     // Check to see if @codybot was tagged
-    if(message.text.indexOf('<@U0J3GQGQ4>') === 0) {
+    if(message.text.indexOf('<@U0J3GQGQ4>') === 0 || message.test.indexOf('@U0LASNADB') === 0) {
       // codybot was tagged. 
 
       var msgArr = message.text.split(' ');
