@@ -1,10 +1,8 @@
 'use strict';
 
-var slack = require('../lib/slack.js');
-
 module.exports = help;
 
-function help(args, message) {
+function help(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
   channel.send('I\'m codybot! \n\n\
     Usage: `@codybot: <command>`\n\n\

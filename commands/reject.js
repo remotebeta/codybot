@@ -1,13 +1,12 @@
 'use strict';
 
 var mongoose = require('mongoose');
-var slack = require('../lib/slack.js');
 
 var Rejection = mongoose.model('Rejection');
 
 module.exports = reject;
 
-function reject(args, message) {
+function reject(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
 
   var companyName = args[0];

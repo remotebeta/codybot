@@ -1,12 +1,10 @@
 'use strict';
 
-var slack = require('../lib/slack.js');
-
 module.exports = moo;
 
 var mooTracker = {};
 
-function moo(args, message) {
+function moo(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
   
   var okayToSend = true;

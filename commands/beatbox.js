@@ -1,10 +1,8 @@
 'ust strict';
 
-var slack = require('../lib/slack.js');
-
 module.exports = beatbox;
 
-function beatbox(args, message) {
+function beatbox(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
   channel.send('Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots.');
 }

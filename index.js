@@ -25,11 +25,27 @@ mongoose.model('Rejection', rejectionSchema);
 var commands = require('./lib/commands.js');
 var slack = require('./lib/slack.js');
 
-slack.on('open', function () {
-  console.log("Connected to ", slack.team.name, "  as @", slack.self.name);
+slack.students.on('open', slackOpen);
+slack.students.on('message', function (message) {
+  slackMessage(slack.students, message);
 });
+slack.students.on('error', slackError);
+slack.students.login();
 
-slack.on('message', function (message) {
+if(slack.staff) {
+  slack.staff.on('open', slackOpen);
+  slack.staff.on('message', function (message) {
+    slackMessage(slack.staff, message);
+  });
+  slack.staff.on('error', slackError);
+  slack.staff.login();
+}
+
+function slackError (err) {
+  console.error(err);
+}
+
+function slackMessage (slack, message) {
   console.log('A new message: ', message.text);
 
   var msg = new Message({
@@ -57,16 +73,14 @@ slack.on('message', function (message) {
       console.log("cmd: ", cmd);
       if(typeof commands[cmd] === 'function') {
         msgArr.splice(0,2);
-        commands[cmd](msgArr, message);
+        commands[cmd](slack, msgArr, message);
       } else {
         channel.send('codybot doesn\'t recognize the command you specified. Teach him by submitting a PR!');
       }
     }
   });
-});
+}
 
-slack.on('error', function (err) {
-  console.error(err);
-});
-
-slack.login();
+function slackOpen() {
+  console.log("Connected to ", slack.team.name, "  as @", slack.self.name);
+}
