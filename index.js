@@ -25,7 +25,9 @@ mongoose.model('Rejection', rejectionSchema);
 var commands = require('./lib/commands.js');
 var slack = require('./lib/slack.js');
 
-slack.students.on('open', slackOpen);
+slack.students.on('open', function () {
+    slackOpen(slack.students);
+  });
 slack.students.on('message', function (message) {
   slackMessage(slack.students, message);
 });
@@ -33,7 +35,9 @@ slack.students.on('error', slackError);
 slack.students.login();
 
 if(slack.staff) {
-  slack.staff.on('open', slackOpen);
+  slack.staff.on('open', function () {
+    slackOpen(slack.staff);
+  });
   slack.staff.on('message', function (message) {
     slackMessage(slack.staff, message);
   });
@@ -81,6 +85,6 @@ function slackMessage (slack, message) {
   });
 }
 
-function slackOpen() {
+function slackOpen(slack) {
   console.log("Connected to ", slack.team.name, "  as @", slack.self.name);
 }
