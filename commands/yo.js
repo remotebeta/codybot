@@ -2,7 +2,7 @@
 
 module.exports = yo;
 
-function yp(slack, args, message) {
+function yo(slack, args, message) {
   // var channel = slack.getChannelGroupOrDMByID(message.channel);
   message.channel.send('Yo!');
 }
