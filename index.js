@@ -72,7 +72,7 @@ function slackMessage (slack, message) {
 
     var tagged = false;
 
-    ids.foreach(function (id) {
+    ids.forEach(function (id) {
       if(message.text.indexOf('<@' + id + '>') === 0) {
         tagged = true;
       }
