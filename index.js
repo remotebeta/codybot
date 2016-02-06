@@ -4,6 +4,8 @@ var mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost:4321/codybot');
 
+var ids = [];
+
 var messageSchema = mongoose.Schema({
   type: String,
   channel: String,
@@ -68,8 +70,16 @@ function slackMessage (slack, message) {
 
     var channel = slack.getChannelGroupOrDMByID(message.channel);
 
+    var tagged = false;
+
+    ids.each(function (id) {
+      if(message.text.indexOf('<@' + id + '>') === 0) {
+        tagged = true;
+      }
+    });
+
     // Check to see if @codybot was tagged
-    if(message.text.indexOf('<@U0J3GQGQ4>') === 0 || message.text.indexOf('<@U0LASNADB>') === 0) {
+    if(tagged) {
       // codybot was tagged.
 
       var msgArr = message.text.split(' ');
@@ -87,5 +97,5 @@ function slackMessage (slack, message) {
 
 function slackOpen(slack) {
   console.log("Connected to ", slack.team.name, "  as @", slack.self.name);
-  console.log(slack.self);
+  ids.push(slack.self.id);
 }
