@@ -77,15 +77,15 @@ function slackMessage (slack, message) {
     if(message.channel[0] === 'D') {
       // Assuming a DM with codybot
       tagged = true;
-    } else {
-      // Check to see if @codybot was tagged
-      ids.forEach(function (id) {
-        if(message.text.indexOf('<@' + id + '>') === 0) {
-          tagged = true;
-          msgArr.shift();
-        }
-      });
     }
+
+    // Check to see if @codybot was tagged
+    ids.forEach(function (id) {
+      if(message.text.indexOf('<@' + id + '>') === 0) {
+        tagged = true;
+        msgArr.shift();
+      }
+    });
 
     if(tagged) {
       // codybot was tagged.

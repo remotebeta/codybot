@@ -16,7 +16,7 @@ function telegraph (slack, args, message) {
   slack.openDM(userID, function (openDmData) {
     if(openDmData.ok) {
       var dmChannel = slack.getChannelGroupOrDMByID(openDmData.channel.id);
-      dmChannel.send(msg);
+      dmChannel.send('You recieved a telegraph from <@' + message.user  + '>: ' + msg);
     }
   });
 }
