@@ -53,6 +53,7 @@ function slackError (err) {
 
 function slackMessage (slack, message) {
   console.log('A new message: ', message.text);
+  console.log(message.channel);
 
   var msg = new Message({
     type: message.type,
