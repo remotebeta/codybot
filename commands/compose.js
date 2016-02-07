@@ -40,10 +40,14 @@ var composeCouplet = function() {
 
     if (rhyme) {
       word = randElem( words[type] );
-      while (word.rhyme !== rhyme) {
+
+      // If it can't find a rhyme, it will bail after 100 tries
+      while (word.rhyme !== rhyme && syllables < 100) {
         word = randElem( words[type] );
+        syllables++;
       }
       line += word.word;
+
     } else {
       addWord();
     }
