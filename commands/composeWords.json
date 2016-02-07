@@ -25,6 +25,24 @@
     },
 
     {
+      "word": "stove",
+      "rhyme": "uv",
+      "syll": 1
+    },
+
+    {
+      "word": "mind",
+      "rhyme": "Id",
+      "syll": 1
+    },
+
+    {
+      "word": "find",
+      "rhyme": "Id",
+      "syll": 1
+    },
+
+    {
       "word": "hare",
       "rhyme": "err",
       "syll": 1
@@ -85,6 +103,114 @@
     },
 
     {
+      "word": "bean",
+      "rhyme": "En",
+      "syll": 1
+    },
+
+    {
+      "word": "spleen",
+      "rhyme": "En",
+      "syll": 1
+    },
+
+    {
+      "word": "crow",
+      "rhyme": "O",
+      "syll": 1
+    },
+
+    {
+      "word": "bro",
+      "rhyme": "O",
+      "syll": 1
+    },
+
+    {
+      "word": "pup",
+      "rhyme": "up",
+      "syll": 1
+    },
+
+    {
+      "word": "pile up",
+      "rhyme": "up",
+      "syll": 2
+    },
+
+    {
+      "word": "reel",
+      "rhyme": "El",
+      "syll": 1
+    },
+
+    {
+      "word": "food",
+      "rhyme": "ood",
+      "syll": 1
+    },
+
+    {
+      "word": "mood",
+      "rhyme": "ood",
+      "syll": 1
+    },
+
+    {
+      "word": "trust",
+      "rhyme": "us",
+      "syll": 1
+    },
+
+    {
+      "word": "cut",
+      "rhyme": "ut",
+      "syll": 1
+    },
+
+    {
+      "word": "mutt",
+      "rhyme": "ut",
+      "syll": 1
+    },
+
+    {
+      "word": "hard drive",
+      "rhyme": "Iv",
+      "syll": 2
+    },
+
+    {
+      "word": "passion",
+      "rhyme": "un",
+      "syll": 2
+    },
+
+    {
+      "word": "hard drive",
+      "rhyme": "Iv",
+      "syll": 2
+    },
+
+    {
+      "word": "byte",
+      "rhyme": "It",
+      "syll": 1
+    },
+
+    {
+      "word": "gigabyte",
+      "rhyme": "It",
+      "syll": 3
+    },
+
+    {
+      "word": "sieve",
+      "rhyme": "Ev",
+      "syll": 1
+    },
+
+    {
       "word": "ocean",
       "rhyme": "in",
       "syll": 2
@@ -112,6 +238,24 @@
       "word": "woman",
       "rhyme": "in",
       "syll": 2
+    },
+
+    {
+      "word": "oranges",
+      "rhyme": "iz",
+      "syll": 3
+    },
+
+    {
+      "word": "courses",
+      "rhyme": "iz",
+      "syll": 2
+    },
+
+    {
+      "word": "spaz",
+      "rhyme": "az",
+      "syll": 1
     },
 
     {
@@ -375,12 +519,6 @@
     },
 
     {
-      "word": "have",
-      "rhyme": "av",
-      "syll": 1
-    },
-
-    {
       "word": "has",
       "rhyme": "az",
       "syll": 1
@@ -389,12 +527,6 @@
     {
       "word": "think",
       "rhyme": "Ek",
-      "syll": 1
-    },
-
-    {
-      "word": "give",
-      "rhyme": "iv",
       "syll": 1
     },
 
@@ -508,22 +640,11 @@
   ],
 
   "adjective" : [
-    {
-      "word": "poetic",
-      "rhyme": "ik",
-      "syll": 3
-    },
 
     {
       "word": "dizzy",
       "rhyme": "E",
       "syll": 2
-    },
-
-    {
-      "word": "romantic",
-      "rhyme": "ik",
-      "syll": 3
     },
 
     {
@@ -536,13 +657,7 @@
       "word": "peculiar",
       "rhyme": "er",
       "syll": 4
-    },
-
-    {
-      "word": "cryptic",
-      "rhyme": "ik",
-      "syll": 2
-    },    
+    },   
 
     {
       "word": "ideal",
@@ -664,7 +779,7 @@
 
     {
       "word": "and",
-      "rhyme": "en",
+      "rhyme": "in",
       "syll": 1
     },
 
@@ -676,7 +791,7 @@
 
     {
       "word": "yet",
-      "rhyme": "et",
+      "rhyme": "it",
       "syll": 1
     },
 
