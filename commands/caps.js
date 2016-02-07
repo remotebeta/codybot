@@ -10,7 +10,7 @@ function caps(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
 
   // remove the @ from the Slack username
-  var userName = args[0].slice(1);
+  var userName = userID.slice(2, userID.length-1);
 
   var mutateMessage = function(message) {
     var toCaps = message.toUpperCase();
@@ -24,13 +24,14 @@ function caps(slack, args, message) {
 
   Message.find({ user: userName })
     .where('channel').equals(channel)
-    .sort({'created_at' : -1}) // not sure if this is right
+    .sort({'ts' : -1}) // not sure if this is right
     .limit(1)
     .select('text')
     .exec(function(err, message) {
       if (err) {
         return console.error(err);
       }
+      console.log(message);
 
       channel.send(mutateMessage(message));
     });
