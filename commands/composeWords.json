@@ -2,61 +2,61 @@
   "noun": [
     {
       "word": "ball",
-      "rhyme": "all",
+      "rhyme": "ahl",
       "syll": 1
     },
 
     {
       "word": "mall",
-      "rhyme": "all",
+      "rhyme": "ahl",
       "syll": 1
     },
 
     {
       "word": "chair",
-      "rhyme": "air",
+      "rhyme": "err",
       "syll": 1
     },
 
     {
       "word": "bear",
-      "rhyme": "air",
+      "rhyme": "err",
       "syll": 1
     },
 
     {
       "word": "hare",
-      "rhyme": "air",
+      "rhyme": "err",
       "syll": 1
     },
 
     {
       "word": "snake",
-      "rhyme": "ake",
+      "rhyme": "Ak",
       "syll": 1
     },
 
     {
       "word": "ache",
-      "rhyme": "ake",
+      "rhyme": "Ak",
       "syll": 1
     },
 
     {
-      "word": "air",
-      "rhyme": "air",
+      "word": "err",
+      "rhyme": "err",
       "syll": 1
     },
 
     {
       "word": "charity",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 3
     },
 
     {
       "word": "justice",
-      "rhyme": "ess",
+      "rhyme": "is",
       "syll": 2
     },
 
@@ -74,7 +74,7 @@
 
     {
       "word": "success",
-      "rhyme": "ess",
+      "rhyme": "es",
       "syll": 2
     },
 
@@ -104,7 +104,7 @@
 
     {
       "word": "people",
-      "rhyme": "le",
+      "rhyme": "ul",
       "syll": 2
     },
 
@@ -122,25 +122,25 @@
 
     {
       "word": "hand",
-      "rhyme": "end",
+      "rhyme": "an",
       "syll": 1
     },
 
     {
       "word": "way",
-      "rhyme": "ey",
+      "rhyme": "A",
       "syll": 1
     },
 
     {
       "word": "time",
-      "rhyme": "ime",
+      "rhyme": "Im",
       "syll": 1
     },
 
     {
       "word": "Slack",
-      "rhyme": "ack",
+      "rhyme": "ak",
       "syll": 1
     },
 
@@ -152,7 +152,7 @@
 
     {
       "word": "code",
-      "rhyme": "ode",
+      "rhyme": "Od",
       "syll": 1
     },
 
@@ -164,7 +164,7 @@
 
     {
       "word": "sky",
-      "rhyme": "ai",
+      "rhyme": "I",
       "syll": 1
     },
 
@@ -182,7 +182,7 @@
 
     {
       "word": "Cody",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 2
     },
 
@@ -212,19 +212,19 @@
 
     {
       "word": "geek",
-      "rhyme": "eek",
+      "rhyme": "Ek",
       "syll": 1
     },
 
     {
       "word": "he",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 1
     },
 
     {
       "word": "she",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 1
     },
 
@@ -242,25 +242,25 @@
 
     {
       "word": "this",
-      "rhyme": "iss",
+      "rhyme": "is",
       "syll": 1
     },
 
     {
       "word": "I",
-      "rhyme": "ai",
+      "rhyme": "I",
       "syll": 1
     },
 
     {
       "word": "me",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 1
     },
 
     {
       "word": "they",
-      "rhyme": "ey",
+      "rhyme": "A",
       "syll": 1
     },
 
@@ -284,7 +284,7 @@
 
     {
       "word": "beak",
-      "rhyme": "eek",
+      "rhyme": "Ek",
       "syll": 1
     }
   ],
@@ -292,25 +292,25 @@
   "verb": [
     {
       "word": "fall",
-      "rhyme": "all",
+      "rhyme": "ahl",
       "syll": 1
     },
 
     {
       "word": "crawl",
-      "rhyme": "all",
+      "rhyme": "ahl",
       "syll": 1
     },
 
     {
       "word": "care",
-      "rhyme": "air",
+      "rhyme": "err",
       "syll": 1
     },
 
     {
       "word": "stare",
-      "rhyme": "air",
+      "rhyme": "err",
       "syll": 1
     },
 
@@ -322,13 +322,13 @@
 
     {
       "word": "bake",
-      "rhyme": "ake",
+      "rhyme": "Ak",
       "syll": 1
     },
 
     {
       "word": "make",
-      "rhyme": "ake",
+      "rhyme": "Ak",
       "syll": 1
     },
 
@@ -352,7 +352,7 @@
 
     {
       "word": "seek",
-      "rhyme": "eek",
+      "rhyme": "Ek",
       "syll": 1
     },
 
@@ -370,7 +370,7 @@
 
     {
       "word": "be",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 1
     },
 
@@ -388,7 +388,7 @@
 
     {
       "word": "think",
-      "rhyme": "ink",
+      "rhyme": "Ek",
       "syll": 1
     },
 
@@ -400,37 +400,31 @@
 
     {
       "word": "say",
-      "rhyme": "ey",
+      "rhyme": "A",
       "syll": 1
     },
 
     {
       "word": "find",
-      "rhyme": "ind",
+      "rhyme": "In",
       "syll": 1
     },
 
     {
       "word": "mean",
-      "rhyme": "een",
+      "rhyme": "En",
       "syll": 1
     },
 
     {
       "word": "show",
-      "rhyme": "oh",
-      "syll": 1
-    },
-
-    {
-      "word": "help",
-      "rhyme": "elp",
+      "rhyme": "O",
       "syll": 1
     },
 
     {
       "word": "code",
-      "rhyme": "ode",
+      "rhyme": "Od",
       "syll": 1
     },
 
@@ -442,7 +436,7 @@
 
     {
       "word": "shriek",
-      "rhyme": "eek",
+      "rhyme": "Ek",
       "syll": 1
     },
 
@@ -454,13 +448,13 @@
 
     {
       "word": "go",
-      "rhyme": "oh",
+      "rhyme": "O",
       "syll": 1
     },
 
     {
       "word": "drive",
-      "rhyme": "ive",
+      "rhyme": "Iv",
       "syll": 1
     },
 
@@ -472,43 +466,43 @@
 
     {
       "word": "sprinkle",
-      "rhyme": "le",
+      "rhyme": "ul",
       "syll": 2
     },
 
     {
       "word": "write",
-      "rhyme": "ite",
+      "rhyme": "It",
       "syll": 1
     },
 
     {
       "word": "believe",
-      "rhyme": "eev",
+      "rhyme": "Ev",
       "syll": 2
     },
 
     {
       "word": "carry",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 1
     },
 
     {
       "word": "pair",
-      "rhyme": "er",
+      "rhyme": "err",
       "syll": 1
     },
 
     {
       "word": "slink",
-      "rhyme": "ink",
+      "rhyme": "Ek",
       "syll": 1
     },
 
     {
       "word": "peek",
-      "rhyme": "eek",
+      "rhyme": "Ek",
       "syll": 1
     }
   ],
@@ -516,25 +510,25 @@
   "adjective" : [
     {
       "word": "poetic",
-      "rhyme": "ick",
+      "rhyme": "ik",
       "syll": 3
     },
 
     {
       "word": "dizzy",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 2
     },
 
     {
       "word": "romantic",
-      "rhyme": "ick",
+      "rhyme": "ik",
       "syll": 3
     },
 
     {
       "word": "simple",
-      "rhyme": "le",
+      "rhyme": "ul",
       "syll": 2
     },
 
@@ -546,25 +540,25 @@
 
     {
       "word": "cryptic",
-      "rhyme": "ick",
+      "rhyme": "ik",
       "syll": 2
     },    
 
     {
       "word": "ideal",
-      "rhyme": "eel",
+      "rhyme": "El",
       "syll": 2
     },
 
     {
       "word": "willowy",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 3
     },
 
     {
       "word": "loyal",
-      "rhyme": "le",
+      "rhyme": "ul",
       "syll": 2
     },
 
@@ -576,7 +570,7 @@
 
     {
       "word": "comical",
-      "rhyme": "le",
+      "rhyme": "ul",
       "syll": 3
     },
 
@@ -588,13 +582,13 @@
 
     {
       "word": "wary",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 2
     },
 
     {
       "word": "radical",
-      "rhyme": "le",
+      "rhyme": "ul",
       "syll": 3
     }
   ],
@@ -602,13 +596,13 @@
   "adverb" : [
     {
       "word": "quickly",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 2
     },
 
     {
       "word": "so",
-      "rhyme": "oh",
+      "rhyme": "O",
       "syll": 1
     },
 
@@ -620,19 +614,19 @@
 
     {
       "word": "eagerly",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 3
     },
 
     {
       "word": "beautifully",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 4
     },
 
     {
       "word": "happily",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 3
     },
 
@@ -644,13 +638,13 @@
 
     {
       "word": "very",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 2
     },
 
     {
       "word": "extremely",
-      "rhyme": "ee",
+      "rhyme": "E",
       "syll": 3
     },
 
@@ -670,7 +664,7 @@
 
     {
       "word": "and",
-      "rhyme": "end",
+      "rhyme": "en",
       "syll": 1
     },
 
@@ -744,19 +738,19 @@
 
     {
       "word": "beside",
-      "rhyme": "ide",
+      "rhyme": "Id",
       "syll": 1
     },
 
     {
       "word": "until",
-      "rhyme": "le",
+      "rhyme": "ul",
       "syll": 2
     },
 
     {
       "word": "by",
-      "rhyme": "ai",
+      "rhyme": "I",
       "syll": 1
     },
 
@@ -782,7 +776,7 @@
 
     {
       "word": "this",
-      "rhyme": "iss",
+      "rhyme": "is",
       "syll": 1
     },
 
