@@ -12,6 +12,8 @@ function telegraph (slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
   channel.send('Sending a DM to: ' + userID);
 
+  var dmchannel = slack.im.open(userID);
+  channel.send(dmchannel);
   var channel2 = slack.getChannelGroupOrDMByID(userID);
   channel2.send('You recieved a message.');
 }
