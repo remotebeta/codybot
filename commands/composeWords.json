@@ -1,0 +1,74 @@
+{
+  "noun": [
+    {
+      "word": "ball",
+      "rhyme": "all",
+      "syll": 1
+    },
+
+    {
+      "word": "mall",
+      "rhyme": "all",
+      "syll": 1
+    },
+
+    {
+      "word": "geek",
+      "rhyme": "eek",
+      "syll": 1
+    },
+
+    {
+      "word": "beak",
+      "rhyme": "eek",
+      "syll": 1
+    }
+  ],
+
+  "verb": [
+    {
+      "word": "fall",
+      "rhyme": "all",
+      "syll": 1
+    },
+
+    {
+      "word": "crawl",
+      "rhyme": "all",
+      "syll": 1
+    },
+
+    {
+      "word": "seek",
+      "rhyme": "eek",
+      "syll": 1
+    },
+
+    {
+      "word": "peek",
+      "rhyme": "eek",
+      "syll": 1
+    }
+  ],
+
+  "punctuation" : [
+    ".",
+
+    ".",
+
+    ".",
+
+    ",",
+
+    ",",
+
+    "!",
+
+    "?",
+
+    ";",
+
+    ":"
+  ]
+
+}
