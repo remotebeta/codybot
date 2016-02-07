@@ -56,12 +56,11 @@ var composeCouplet = function() {
     // Formatting
     line = line[0].toUpperCase() + line.slice(1);
     line = line.trim();
-    line += randElem( words.punctuation );
 
     return line;
   };
 
-  return writeLine() + '\n' + writeLine();
+  return writeLine() + '\n' + writeLine() + randElem( ['.', '.','?', '!'] );
 };
 
 function compose(slack, args, message) {

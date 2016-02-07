@@ -62,13 +62,13 @@
 
     {
       "word": "boar",
-      "rhyme": "ore",
+      "rhyme": "or",
       "syll": 1
     },
 
     {
       "word": "before",
-      "rhyme": "ore",
+      "rhyme": "or",
       "syll": 2
     },
 
@@ -136,13 +136,13 @@
 
     {
       "word": "explore",
-      "rhyme": "ore",
+      "rhyme": "or",
       "syll": 2
     },
 
     {
       "word": "pour",
-      "rhyme": "ore",
+      "rhyme": "or",
       "syll": 1
     },
 
@@ -159,24 +159,186 @@
     }
   ],
 
+  "conjunction" : [
+    {
+      "word": "but",
+      "rhyme": "ut",
+      "syll": 1
+    },
+
+    {
+      "word": "and",
+      "rhyme": "end",
+      "syll": 1
+    },
+
+    {
+      "word": "or",
+      "rhyme": "or",
+      "syll": 1
+    },
+
+    {
+      "word": "yet",
+      "rhyme": "et",
+      "syll": 1
+    },
+
+    {
+      "word": "if",
+      "rhyme": "if",
+      "syll": 1
+    },
+
+    {
+      "word": "that",
+      "rhyme": "at",
+      "syll": 1
+    },
+
+    {
+      "word": "for",
+      "rhyme": "or",
+      "syll": 1
+    }
+  ],
+
+  "preposition" : [
+    {
+      "word": "of",
+      "rhyme": "uv",
+      "syll": 1
+    },
+
+    {
+      "word": "in",
+      "rhyme": "in",
+      "syll": 1
+    },
+
+    {
+      "word": "over",
+      "rhyme": "er",
+      "syll": 2
+    },
+
+    {
+      "word": "out of",
+      "rhyme": "uv",
+      "syll": 2
+    },
+
+    {
+      "word": "for",
+      "rhyme": "or",
+      "syll": 1
+    },
+
+    {
+      "word": "before",
+      "rhyme": "or",
+      "syll": 2
+    },
+
+    {
+      "word": "beside",
+      "rhyme": "ide",
+      "syll": 1
+    },
+
+    {
+      "word": "until",
+      "rhyme": "le",
+      "syll": 2
+    },
+
+    {
+      "word": "by",
+      "rhyme": "ai",
+      "syll": 1
+    },
+
+    {
+      "word": "to",
+      "rhyme": "er",
+      "syll": 1
+    }
+  ],
+
+  "article" : [
+    {
+      "word": "the",
+      "rhyme": "er",
+      "syll": 1
+    },
+
+    {
+      "word": "a",
+      "rhyme": "er",
+      "syll": 1
+    },
+
+    {
+      "word": "this",
+      "rhyme": "iss",
+      "syll": 1
+    },
+
+    {
+      "word": "that",
+      "rhyme": "at",
+      "syll": 1
+    }
+  ],
+
   "punctuation" : [
-    ".",
+    {
+      "word": ".",
+      "rhyme": "",
+      "syll": 0
+    },
 
-    ".",
+    {
+      "word": ".",
+      "rhyme": "",
+      "syll": 0
+    },
 
-    ".",
+    {
+      "word": ",",
+      "rhyme": "",
+      "syll": 0
+    },
 
-    ",",
+    {
+      "word": ",",
+      "rhyme": "",
+      "syll": 0
+    },
 
-    ",",
+    {
+      "word": "?",
+      "rhyme": "",
+      "syll": 0
+    },
 
-    "!",
+    {
+      "word": "!",
+      "rhyme": "",
+      "syll": 0
+    },
 
-    "?",
+    {
+      "word": ":",
+      "rhyme": "",
+      "syll": 0
+    },
 
-    ";",
-
-    ":"
+    {
+      "word": ";",
+      "rhyme": "",
+      "syll": 0
+    }
   ]
 
 }
