@@ -27,11 +27,25 @@ var composeCouplet = function() {
     var line = '';
     var word;
 
-    while (syllables <= 10) {
+    var addWord = function() {
       type = randElem( options[type] );
       word = randElem( words[type] );
       line += word.word + ' ';
       syllables += word.syll;
+    };
+
+    while (syllables < 10) {
+      addWord();
+    }
+
+    if (rhyme) {
+      word = randElem( words[type] );
+      while (word.rhyme !== rhyme) {
+        word = randElem( words[type] );
+      }
+      line += word.word;
+    } else {
+      addWord();
     }
     rhyme = word.rhyme;
 
@@ -48,7 +62,6 @@ var composeCouplet = function() {
 
 function compose(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
-
 
   channel.send(composeCouplet());
 }
