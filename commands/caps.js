@@ -10,6 +10,7 @@ function caps(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
 
   // remove the @ from the Slack username
+  var userID = args.shift();
   var userName = userID.slice(2, userID.length-1);
 
   var mutateMessage = function(message) {
