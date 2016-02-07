@@ -72,9 +72,7 @@ function slackMessage (slack, message) {
     var channel = slack.getChannelGroupOrDMByID(message.channel);
 
     var tagged = false;
-
     var msgArr = message.text.split(' ');
-
 
     if(message.channel[0] === 'D') {
       // Assuming a DM with codybot
@@ -95,7 +93,6 @@ function slackMessage (slack, message) {
       var cmd = msgArr.shift();
       // console.log("cmd: ", cmd);
       if(typeof commands[cmd] === 'function') {
-        //msgArr.splice(0,2);
         commands[cmd](slack, msgArr, message);
       } else {
         channel.send('codybot doesn\'t recognize the command you specified. Teach him by submitting a PR!');
