@@ -8,7 +8,8 @@ function help(slack, args, message) {
     Usage: `@codybot: <command>`\n\n\
     Commands: \n\
     moo - Moos the current channel 5 times. Limit one use per channel per 30 min. \n\
-    reject <comanyName> - Records that you were rejected from that company. \n\
+    reject <companyName> - Records that you were rejected from that company. \n\
+    caps <@user> - Repeats that user\'s last message in this channel, in ALL CAPS \n\
     help - Prints this prompt \
     ');
 }
