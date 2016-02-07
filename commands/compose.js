@@ -84,7 +84,7 @@ var composeCouplet = function() {
 
     if (rhyme) {
       word = findRhyme();
-      line += word.word;
+      line += ' ' + word.word;
     } else {
       addWord();
     }
