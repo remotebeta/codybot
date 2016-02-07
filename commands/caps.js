@@ -30,12 +30,10 @@ function caps(slack, args, message) {
     .select('text')
     .exec(function(err, message) {
       if (err) {
-        console.log('Error?');
         return console.error(err);
       }
-      console.log(message);
 
-      channel.send(mutateMessage(message));
+      channel.send(mutateMessage(message[0].text));
     });
 
 }
