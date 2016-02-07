@@ -24,7 +24,7 @@ function caps(slack, args, message) {
   };
 
   Message.find({ user: userName })
-    .where('channel').equals(channel)
+    .where('channel').equals(message.channel)
     .sort({'ts' : -1}) // not sure if this is right
     .limit(1)
     .select('text')
