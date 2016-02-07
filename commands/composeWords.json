@@ -85,6 +85,12 @@
     },
 
     {
+      "word": "miracle",
+      "rhyme": "ul",
+      "syll": 3
+    },
+
+    {
       "word": "justice",
       "rhyme": "is",
       "syll": 2
@@ -97,14 +103,14 @@
     },
 
     {
-      "word": "joy",
-      "rhyme": "oy",
+      "word": "trout",
+      "rhyme": "out",
       "syll": 1
     },
 
     {
       "word": "success",
-      "rhyme": "es",
+      "rhyme": "is",
       "syll": 2
     },
 
@@ -193,12 +199,6 @@
     },
 
     {
-      "word": "passion",
-      "rhyme": "un",
-      "syll": 2
-    },
-
-    {
       "word": "hard drive",
       "rhyme": "Iv",
       "syll": 2
@@ -214,12 +214,6 @@
       "word": "gigabyte",
       "rhyme": "It",
       "syll": 3
-    },
-
-    {
-      "word": "sieve",
-      "rhyme": "Ev",
-      "syll": 1
     },
 
     {
@@ -265,12 +259,6 @@
     },
 
     {
-      "word": "spaz",
-      "rhyme": "az",
-      "syll": 1
-    },
-
-    {
       "word": "man",
       "rhyme": "an",
       "syll": 1
@@ -295,6 +283,18 @@
     },
 
     {
+      "word": "rhyme",
+      "rhyme": "Im",
+      "syll": 1
+    },
+
+    {
+      "word": "crime",
+      "rhyme": "Im",
+      "syll": 1
+    },
+
+    {
       "word": "Slack",
       "rhyme": "ak",
       "syll": 1
@@ -307,8 +307,26 @@
     },
 
     {
+      "word": "fuss",
+      "rhyme": "us",
+      "syll": 1
+    },
+
+    {
+      "word": "blunderbuss",
+      "rhyme": "us",
+      "syll": 3
+    },
+
+    {
       "word": "code",
-      "rhyme": "Od",
+      "rhyme": "O",
+      "syll": 1
+    },
+
+    {
+      "word": "node",
+      "rhyme": "O",
       "syll": 1
     },
 
@@ -410,7 +428,7 @@
 
     {
       "word": "them",
-      "rhyme": "em",
+      "rhyme": "in",
       "syll": 1
     },
 
@@ -459,14 +477,8 @@
     },
 
     {
-      "word": "annoy",
-      "rhyme": "oy",
-      "syll": 2
-    },
-
-    {
       "word": "stress",
-      "rhyme": "es",
+      "rhyme": "is",
       "syll": 1
     },
 
@@ -520,7 +532,7 @@
 
     {
       "word": "stem",
-      "rhyme": "em",
+      "rhyme": "in",
       "syll": 1
     },
 
@@ -603,6 +615,12 @@
     },
 
     {
+      "word": "doubt",
+      "rhyme": "out",
+      "syll": 1
+    },
+
+    {
       "word": "plus",
       "rhyme": "us",
       "syll": 1
@@ -663,12 +681,6 @@
     },
 
     {
-      "word": "has",
-      "rhyme": "az",
-      "syll": 1
-    },
-
-    {
       "word": "think",
       "rhyme": "Ek",
       "syll": 1
@@ -682,7 +694,7 @@
 
     {
       "word": "find",
-      "rhyme": "In",
+      "rhyme": "Im",
       "syll": 1
     },
 
@@ -700,7 +712,7 @@
 
     {
       "word": "code",
-      "rhyme": "Od",
+      "rhyme": "O",
       "syll": 1
     },
 
@@ -735,12 +747,6 @@
     },
 
     {
-      "word": "run",
-      "rhyme": "un",
-      "syll": 1
-    },
-
-    {
       "word": "sprinkle",
       "rhyme": "ul",
       "syll": 2
@@ -750,12 +756,6 @@
       "word": "write",
       "rhyme": "It",
       "syll": 1
-    },
-
-    {
-      "word": "believe",
-      "rhyme": "Ev",
-      "syll": 2
     },
 
     {
@@ -789,13 +789,19 @@
     },
 
     {
+      "word": "conquer",
+      "rhyme": "er",
+      "syll": 2
+    },
+
+    {
       "word": "peek",
       "rhyme": "Ek",
       "syll": 1
     }
   ],
 
-  "adjective" : [
+  "adj" : [
 
     {
       "word": "dizzy",
@@ -822,6 +828,30 @@
     },
 
     {
+      "word": "alive",
+      "rhyme": "Iv",
+      "syll": 2
+    },
+
+    {
+      "word": "dull",
+      "rhyme": "ul",
+      "syll": 1
+    },
+
+    {
+      "word": "unreal",
+      "rhyme": "El",
+      "syll": 2
+    },
+
+    {
+      "word": "key",
+      "rhyme": "E",
+      "syll": 1
+    },
+
+    {
       "word": "willowy",
       "rhyme": "E",
       "syll": 3
@@ -830,6 +860,30 @@
     {
       "word": "loyal",
       "rhyme": "ul",
+      "syll": 2
+    },
+
+    {
+      "word": "blue",
+      "rhyme": "oo",
+      "syll": 1
+    },
+
+    {
+      "word": "clever",
+      "rhyme": "er",
+      "syll": 2
+    },
+
+    {
+      "word": "unfit",
+      "rhyme": "it",
+      "syll": 2
+    },
+
+    {
+      "word": "new",
+      "rhyme": "oo",
       "syll": 2
     },
 
@@ -852,8 +906,26 @@
     },
 
     {
+      "word": "up",
+      "rhyme": "up",
+      "syll": 1
+    },
+
+    {
+      "word": "usable",
+      "rhyme": "ul",
+      "syll": 3
+    },
+
+    {
       "word": "curious",
       "rhyme": "us",
+      "syll": 3
+    },
+
+    {
+      "word": "stout",
+      "rhyme": "out",
       "syll": 3
     },
 
@@ -864,13 +936,25 @@
     },
 
     {
+      "word": "lovely",
+      "rhyme": "E",
+      "syll": 2
+    },
+
+    {
+      "word": "azure",
+      "rhyme": "er",
+      "syll": 2
+    },
+
+    {
       "word": "radical",
       "rhyme": "ul",
       "syll": 3
     }
   ],
 
-  "adverb" : [
+  "adv" : [
     {
       "word": "quickly",
       "rhyme": "E",
@@ -896,6 +980,24 @@
     },
 
     {
+      "word": "mindfully",
+      "rhyme": "E",
+      "syll": 3
+    },
+
+    {
+      "word": "often",
+      "rhyme": "in",
+      "syll": 3
+    },
+
+    {
+      "word": "only",
+      "rhyme": "E",
+      "syll": 2
+    },
+
+    {
       "word": "beautifully",
       "rhyme": "E",
       "syll": 4
@@ -903,6 +1005,12 @@
 
     {
       "word": "happily",
+      "rhyme": "E",
+      "syll": 3
+    },
+
+    {
+      "word": "horribly",
       "rhyme": "E",
       "syll": 3
     },
@@ -932,7 +1040,7 @@
     }
   ],
 
-  "conjunction" : [
+  "conj" : [
     {
       "word": "but",
       "rhyme": "ut",
@@ -970,7 +1078,7 @@
     }
   ],
 
-  "preposition" : [
+  "prep" : [
     {
       "word": "of",
       "rhyme": "uv",
@@ -1032,7 +1140,7 @@
     }
   ],
 
-  "article" : [
+  "art" : [
     {
       "word": "the",
       "rhyme": "er",
@@ -1058,7 +1166,7 @@
     }
   ],
 
-  "punctuation" : [
+  "punc" : [
     {
       "word": ".",
       "rhyme": "",
