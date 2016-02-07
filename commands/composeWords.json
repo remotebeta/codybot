@@ -25,6 +25,12 @@
     },
 
     {
+      "word": "pride",
+      "rhyme": "Id",
+      "syll": 1
+    },
+
+    {
       "word": "stove",
       "rhyme": "uv",
       "syll": 1
@@ -40,6 +46,12 @@
       "word": "find",
       "rhyme": "Id",
       "syll": 1
+    },
+
+    {
+      "word": "crisis",
+      "rhyme": "is",
+      "syll": 2
     },
 
     {
@@ -146,13 +158,13 @@
 
     {
       "word": "food",
-      "rhyme": "ood",
+      "rhyme": "oo",
       "syll": 1
     },
 
     {
       "word": "mood",
-      "rhyme": "ood",
+      "rhyme": "oo",
       "syll": 1
     },
 
@@ -331,18 +343,6 @@
     },
 
     {
-      "word": "cloud",
-      "rhyme": "oud",
-      "syll": 1
-    },
-
-    {
-      "word": "shroud",
-      "rhyme": "oud",
-      "syll": 1
-    },
-
-    {
       "word": "boar",
       "rhyme": "or",
       "syll": 1
@@ -427,6 +427,12 @@
     },
 
     {
+      "word": "stack",
+      "rhyme": "ak",
+      "syll": 1
+    },
+
+    {
       "word": "beak",
       "rhyme": "Ek",
       "syll": 1
@@ -447,6 +453,138 @@
     },
 
     {
+      "word": "miss",
+      "rhyme": "is",
+      "syll": 1
+    },
+
+    {
+      "word": "annoy",
+      "rhyme": "oy",
+      "syll": 2
+    },
+
+    {
+      "word": "stress",
+      "rhyme": "es",
+      "syll": 1
+    },
+
+    {
+      "word": "pout",
+      "rhyme": "out",
+      "syll": 1
+    },
+
+    {
+      "word": "carry out",
+      "rhyme": "out",
+      "syll": 3
+    },
+
+    {
+      "word": "open",
+      "rhyme": "in",
+      "syll": 2
+    },
+
+    {
+      "word": "bat",
+      "rhyme": "at",
+      "syll": 1
+    },
+
+    {
+      "word": "posit",
+      "rhyme": "it",
+      "syll": 1
+    },
+
+    {
+      "word": "fit",
+      "rhyme": "it",
+      "syll": 1
+    },
+
+    {
+      "word": "fly",
+      "rhyme": "I",
+      "syll": 1
+    },
+
+    {
+      "word": "pry",
+      "rhyme": "I",
+      "syll": 1
+    },
+
+    {
+      "word": "stem",
+      "rhyme": "em",
+      "syll": 1
+    },
+
+    {
+      "word": "spook",
+      "rhyme": "oo",
+      "syll": 1
+    },
+
+    {
+      "word": "steal",
+      "rhyme": "El",
+      "syll": 1
+    },
+
+    {
+      "word": "conceal",
+      "rhyme": "El",
+      "syll": 2
+    },
+
+    {
+      "word": "move",
+      "rhyme": "oo",
+      "syll": 1
+    },
+
+    {
+      "word": "pat",
+      "rhyme": "at",
+      "syll": 1
+    },
+
+    {
+      "word": "pan",
+      "rhyme": "an",
+      "syll": 1
+    },
+
+    {
+      "word": "time",
+      "rhyme": "Im",
+      "syll": 1
+    },
+
+    {
+      "word": "rhyme",
+      "rhyme": "Im",
+      "syll": 1
+    },
+
+    {
+      "word": "track",
+      "rhyme": "ak",
+      "syll": 1
+    },
+
+    {
+      "word": "stack",
+      "rhyme": "ak",
+      "syll": 1
+    },
+
+    {
       "word": "care",
       "rhyme": "err",
       "syll": 1
@@ -459,26 +597,32 @@
     },
 
     {
-      "word": "cowed",
-      "rhyme": "oud",
-      "syll": 1
-    },
-
-    {
       "word": "bake",
       "rhyme": "Ak",
       "syll": 1
     },
 
     {
-      "word": "make",
-      "rhyme": "Ak",
+      "word": "plus",
+      "rhyme": "us",
       "syll": 1
     },
 
     {
-      "word": "plowed",
-      "rhyme": "oud",
+      "word": "cut",
+      "rhyme": "ut",
+      "syll": 1
+    },
+
+    {
+      "word": "minus",
+      "rhyme": "us",
+      "syll": 2
+    },
+
+    {
+      "word": "make",
+      "rhyme": "Ak",
       "syll": 1
     },
 
@@ -633,6 +777,18 @@
     },
 
     {
+      "word": "hide",
+      "rhyme": "Id",
+      "syll": 1
+    },
+
+    {
+      "word": "love",
+      "rhyme": "uv",
+      "syll": 1
+    },
+
+    {
       "word": "peek",
       "rhyme": "Ek",
       "syll": 1
@@ -678,8 +834,14 @@
     },
 
     {
+      "word": "snide",
+      "rhyme": "Id",
+      "syll": 1
+    },
+
+    {
       "word": "rude",
-      "rhyme": "ood",
+      "rhyme": "oo",
       "syll": 1
     },
 
@@ -792,12 +954,6 @@
     {
       "word": "yet",
       "rhyme": "it",
-      "syll": 1
-    },
-
-    {
-      "word": "if",
-      "rhyme": "if",
       "syll": 1
     },
 
