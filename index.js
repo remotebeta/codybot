@@ -52,8 +52,8 @@ function slackError (err) {
 }
 
 function slackMessage (slack, message) {
-  console.log('A new message: ', message.text);
-  console.log(message.channel);
+  // console.log('A new message: ', message.text);
+  // console.log(message.channel);
 
   var msg = new Message({
     type: message.type,
@@ -73,21 +73,29 @@ function slackMessage (slack, message) {
 
     var tagged = false;
 
-    ids.forEach(function (id) {
-      if(message.text.indexOf('<@' + id + '>') === 0) {
-        tagged = true;
-      }
-    });
+    var msgArr = message.text.split(' ');
 
-    // Check to see if @codybot was tagged
+
+    if(message.channel[0] === 'D') {
+      // Assuming a DM with codybot
+      tagged = true;
+    } else {
+      // Check to see if @codybot was tagged
+      ids.forEach(function (id) {
+        if(message.text.indexOf('<@' + id + '>') === 0) {
+          tagged = true;
+          msgArr.shift();
+        }
+      });
+    }
+
     if(tagged) {
       // codybot was tagged.
 
-      var msgArr = message.text.split(' ');
-      var cmd = msgArr[1];
-      console.log("cmd: ", cmd);
+      var cmd = msgArr.shift();
+      // console.log("cmd: ", cmd);
       if(typeof commands[cmd] === 'function') {
-        msgArr.splice(0,2);
+        //msgArr.splice(0,2);
         commands[cmd](slack, msgArr, message);
       } else {
         channel.send('codybot doesn\'t recognize the command you specified. Teach him by submitting a PR!');
