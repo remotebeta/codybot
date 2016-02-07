@@ -8,9 +8,19 @@ module.exports = caps;
 
 function caps(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
+  var back2 = false;
+  var userID;
 
-  // remove the @ from the Slack username
-  var userID = args.shift();
+  // if no one's username was passed in,
+  // then codybot should use this user's last-but-one message
+  // (because their most recent message was '@codybot caps')
+  if (args.length) {
+    userID = args.shift();
+  } else {
+    userID = message.user;
+    back2 = true;
+  }
+
   var userName = userID.slice(2, userID.length-1);
 
   var mutateMessage = function(message) {
@@ -25,15 +35,19 @@ function caps(slack, args, message) {
 
   Message.find({ user: userName })
     .where('channel').equals(message.channel)
-    .sort({'ts' : -1}) // not sure if this is right
-    .limit(1)
+    .sort({'ts' : -1})
+    .limit(2)
     .select('text')
     .exec(function(err, message) {
       if (err) {
         return console.error(err);
       }
-
-      channel.send(mutateMessage(message[0].text));
+      if (back2) {
+        channel.send(mutateMessage(message[1].text));
+      }
+      else {
+        channel.send(mutateMessage(message[0].text));
+      }
     });
 
 }
