@@ -52,7 +52,7 @@ function slackError (err) {
 }
 
 function slackMessage (slack, message) {
-  console.log('A new message: ', message);
+  // console.log('A new message: ', message.text);
 
   var msg = new Message({
     type: message.type,
