@@ -13,6 +13,66 @@
     },
 
     {
+      "word": "chair",
+      "rhyme": "air",
+      "syll": 1
+    },
+
+    {
+      "word": "bear",
+      "rhyme": "air",
+      "syll": 1
+    },
+
+    {
+      "word": "hare",
+      "rhyme": "air",
+      "syll": 1
+    },
+
+    {
+      "word": "snake",
+      "rhyme": "ake",
+      "syll": 1
+    },
+
+    {
+      "word": "ache",
+      "rhyme": "ake",
+      "syll": 1
+    },
+
+    {
+      "word": "air",
+      "rhyme": "air",
+      "syll": 1
+    },
+
+    {
+      "word": "cloud",
+      "rhyme": "oud",
+      "syll": 1
+    },
+
+    {
+      "word": "shroud",
+      "rhyme": "oud",
+      "syll": 1
+    },
+
+    {
+      "word": "boar",
+      "rhyme": "ore",
+      "syll": 1
+    },
+
+    {
+      "word": "before",
+      "rhyme": "ore",
+      "syll": 2
+    },
+
+    {
       "word": "geek",
       "rhyme": "eek",
       "syll": 1
@@ -35,6 +95,42 @@
     {
       "word": "crawl",
       "rhyme": "all",
+      "syll": 1
+    },
+
+    {
+      "word": "cowed",
+      "rhyme": "oud",
+      "syll": 1
+    },
+
+    {
+      "word": "bake",
+      "rhyme": "ake",
+      "syll": 1
+    },
+
+    {
+      "word": "make",
+      "rhyme": "ake",
+      "syll": 1
+    },
+
+    {
+      "word": "plowed",
+      "rhyme": "oud",
+      "syll": 1
+    },
+
+    {
+      "word": "explore",
+      "rhyme": "ore",
+      "syll": 2
+    },
+
+    {
+      "word": "pour",
+      "rhyme": "ore",
       "syll": 1
     },
 
