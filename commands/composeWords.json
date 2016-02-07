@@ -49,6 +49,144 @@
     },
 
     {
+      "word": "charity",
+      "rhyme": "ee",
+      "syll": 3
+    },
+
+    {
+      "word": "justice",
+      "rhyme": "ess",
+      "syll": 2
+    },
+
+    {
+      "word": "humor",
+      "rhyme": "er",
+      "syll": 2
+    },
+
+    {
+      "word": "joy",
+      "rhyme": "oy",
+      "syll": 1
+    },
+
+    {
+      "word": "success",
+      "rhyme": "ess",
+      "syll": 2
+    },
+
+    {
+      "word": "doubt",
+      "rhyme": "out",
+      "syll": 1
+    },
+
+    {
+      "word": "ocean",
+      "rhyme": "in",
+      "syll": 2
+    },
+
+    {
+      "word": "mountain",
+      "rhyme": "in",
+      "syll": 2
+    },
+
+    {
+      "word": "cat",
+      "rhyme": "at",
+      "syll": 1
+    },
+
+    {
+      "word": "people",
+      "rhyme": "le",
+      "syll": 2
+    },
+
+    {
+      "word": "woman",
+      "rhyme": "in",
+      "syll": 2
+    },
+
+    {
+      "word": "man",
+      "rhyme": "an",
+      "syll": 1
+    },
+
+    {
+      "word": "hand",
+      "rhyme": "end",
+      "syll": 1
+    },
+
+    {
+      "word": "way",
+      "rhyme": "ey",
+      "syll": 1
+    },
+
+    {
+      "word": "time",
+      "rhyme": "ime",
+      "syll": 1
+    },
+
+    {
+      "word": "Slack",
+      "rhyme": "ack",
+      "syll": 1
+    },
+
+    {
+      "word": "Hack Reactor",
+      "rhyme": "er",
+      "syll": 4
+    },
+
+    {
+      "word": "code",
+      "rhyme": "ode",
+      "syll": 1
+    },
+
+    {
+      "word": "git",
+      "rhyme": "it",
+      "syll": 1
+    },
+
+    {
+      "word": "sky",
+      "rhyme": "ai",
+      "syll": 1
+    },
+
+    {
+      "word": "Taylor",
+      "rhyme": "er",
+      "syll": 2
+    },
+
+    {
+      "word": "Robin",
+      "rhyme": "in",
+      "syll": 2
+    },
+
+    {
+      "word": "Cody",
+      "rhyme": "ee",
+      "syll": 2
+    },
+
+    {
       "word": "cloud",
       "rhyme": "oud",
       "syll": 1
@@ -75,6 +213,72 @@
     {
       "word": "geek",
       "rhyme": "eek",
+      "syll": 1
+    },
+
+    {
+      "word": "he",
+      "rhyme": "ee",
+      "syll": 1
+    },
+
+    {
+      "word": "she",
+      "rhyme": "ee",
+      "syll": 1
+    },
+
+    {
+      "word": "it",
+      "rhyme": "it",
+      "syll": 1
+    },
+
+    {
+      "word": "that",
+      "rhyme": "at",
+      "syll": 1
+    },
+
+    {
+      "word": "this",
+      "rhyme": "iss",
+      "syll": 1
+    },
+
+    {
+      "word": "I",
+      "rhyme": "ai",
+      "syll": 1
+    },
+
+    {
+      "word": "me",
+      "rhyme": "ee",
+      "syll": 1
+    },
+
+    {
+      "word": "they",
+      "rhyme": "ey",
+      "syll": 1
+    },
+
+    {
+      "word": "them",
+      "rhyme": "em",
+      "syll": 1
+    },
+
+    {
+      "word": "you",
+      "rhyme": "oo",
+      "syll": 1
+    },
+
+    {
+      "word": "pair",
+      "rhyme": "er",
       "syll": 1
     },
 
@@ -153,9 +357,307 @@
     },
 
     {
+      "word": "is",
+      "rhyme": "iz",
+      "syll": 1
+    },
+
+    {
+      "word": "are",
+      "rhyme": "er",
+      "syll": 1
+    },
+
+    {
+      "word": "be",
+      "rhyme": "ee",
+      "syll": 1
+    },
+
+    {
+      "word": "have",
+      "rhyme": "av",
+      "syll": 1
+    },
+
+    {
+      "word": "has",
+      "rhyme": "az",
+      "syll": 1
+    },
+
+    {
+      "word": "think",
+      "rhyme": "ink",
+      "syll": 1
+    },
+
+    {
+      "word": "give",
+      "rhyme": "iv",
+      "syll": 1
+    },
+
+    {
+      "word": "say",
+      "rhyme": "ey",
+      "syll": 1
+    },
+
+    {
+      "word": "find",
+      "rhyme": "ind",
+      "syll": 1
+    },
+
+    {
+      "word": "mean",
+      "rhyme": "een",
+      "syll": 1
+    },
+
+    {
+      "word": "show",
+      "rhyme": "oh",
+      "syll": 1
+    },
+
+    {
+      "word": "help",
+      "rhyme": "elp",
+      "syll": 1
+    },
+
+    {
+      "word": "code",
+      "rhyme": "ode",
+      "syll": 1
+    },
+
+    {
+      "word": "slither",
+      "rhyme": "er",
+      "syll": 2
+    },
+
+    {
+      "word": "shriek",
+      "rhyme": "eek",
+      "syll": 1
+    },
+
+    {
+      "word": "gallop",
+      "rhyme": "up",
+      "syll": 2
+    },
+
+    {
+      "word": "go",
+      "rhyme": "oh",
+      "syll": 1
+    },
+
+    {
+      "word": "drive",
+      "rhyme": "ive",
+      "syll": 1
+    },
+
+    {
+      "word": "run",
+      "rhyme": "un",
+      "syll": 1
+    },
+
+    {
+      "word": "sprinkle",
+      "rhyme": "le",
+      "syll": 2
+    },
+
+    {
+      "word": "write",
+      "rhyme": "ite",
+      "syll": 1
+    },
+
+    {
+      "word": "believe",
+      "rhyme": "eev",
+      "syll": 2
+    },
+
+    {
+      "word": "carry",
+      "rhyme": "ee",
+      "syll": 1
+    },
+
+    {
+      "word": "pair",
+      "rhyme": "er",
+      "syll": 1
+    },
+
+    {
+      "word": "slink",
+      "rhyme": "ink",
+      "syll": 1
+    },
+
+    {
       "word": "peek",
       "rhyme": "eek",
       "syll": 1
+    }
+  ],
+
+  "adjective" : [
+    {
+      "word": "poetic",
+      "rhyme": "ick",
+      "syll": 3
+    },
+
+    {
+      "word": "dizzy",
+      "rhyme": "ee",
+      "syll": 2
+    },
+
+    {
+      "word": "romantic",
+      "rhyme": "ick",
+      "syll": 3
+    },
+
+    {
+      "word": "simple",
+      "rhyme": "le",
+      "syll": 2
+    },
+
+    {
+      "word": "peculiar",
+      "rhyme": "er",
+      "syll": 4
+    },
+
+    {
+      "word": "cryptic",
+      "rhyme": "ick",
+      "syll": 2
+    },    
+
+    {
+      "word": "ideal",
+      "rhyme": "eel",
+      "syll": 2
+    },
+
+    {
+      "word": "willowy",
+      "rhyme": "ee",
+      "syll": 3
+    },
+
+    {
+      "word": "loyal",
+      "rhyme": "le",
+      "syll": 2
+    },
+
+    {
+      "word": "rude",
+      "rhyme": "ood",
+      "syll": 1
+    },
+
+    {
+      "word": "comical",
+      "rhyme": "le",
+      "syll": 3
+    },
+
+    {
+      "word": "curious",
+      "rhyme": "us",
+      "syll": 3
+    },
+
+    {
+      "word": "wary",
+      "rhyme": "ee",
+      "syll": 2
+    },
+
+    {
+      "word": "radical",
+      "rhyme": "le",
+      "syll": 3
+    }
+  ],
+
+  "adverb" : [
+    {
+      "word": "quickly",
+      "rhyme": "ee",
+      "syll": 2
+    },
+
+    {
+      "word": "so",
+      "rhyme": "oh",
+      "syll": 1
+    },
+
+    {
+      "word": "before",
+      "rhyme": "or",
+      "syll": 2
+    },
+
+    {
+      "word": "eagerly",
+      "rhyme": "ee",
+      "syll": 3
+    },
+
+    {
+      "word": "beautifully",
+      "rhyme": "ee",
+      "syll": 4
+    },
+
+    {
+      "word": "happily",
+      "rhyme": "ee",
+      "syll": 3
+    },
+
+    {
+      "word": "rather",
+      "rhyme": "er",
+      "syll": 2
+    },
+
+    {
+      "word": "very",
+      "rhyme": "ee",
+      "syll": 2
+    },
+
+    {
+      "word": "extremely",
+      "rhyme": "ee",
+      "syll": 3
+    },
+
+    {
+      "word": "never",
+      "rhyme": "er",
+      "syll": 2
     }
   ],
 
