@@ -13,10 +13,10 @@ function telegraph (slack, args, message) {
   channel.send('Sending a DM to: ' + userID);
 
   console.log('dmChannel');
-  var dmchannel = slack.openDM(userID, function (data) {
-    console.log(data);
+  slack.openDM(userID, function (openDmData) {
+    if(openDmData.ok) {
+      var dmChannel = slack.getChannelGroupOrDMByID(openDmData.channel.id);
+      dmChannel.send(msg);
+    }
   });
-
-  var channel2 = slack.getChannelGroupOrDMByID(userID);
-  channel2.send('You recieved a message.');
 }
