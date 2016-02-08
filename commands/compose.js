@@ -48,11 +48,13 @@ var composeCouplet = function() {
   var type = 'punc';
   var rhyme;
 
+  // Writes a single 10ish syllable line of poetry
   var writeLine = function() {
     var syllables = 0;
     var line = '';
     var word;
 
+    // Builds an array of possible rhymes, and selects a random one
     var findRhyme = function() {
       var rhymes = [];
 
@@ -60,6 +62,13 @@ var composeCouplet = function() {
         if (word.rhyme === rhyme) rhymes.push(word);
       });
 
+      // Nouns and verbs should have all the rhymes, but if not,
+      // but if not, this failsafe prevents an infinite loop
+      if(rhymes.length === 0 && (type === 'noun' || type === 'verb')) {
+        return {word: 'orange'};
+      }
+
+      // If no rhymes were found, switch type to noun or verb
       if (rhymes.length === 0) {
         type = randElem (['noun','verb']);
         return findRhyme();
@@ -68,6 +77,7 @@ var composeCouplet = function() {
       return randElem( rhymes );
     }
 
+    // Selects a random word a possible type and adds it to the line
     var addWord = function() {
       type = randElem( options[type] );
       word = randElem( words[type] );
@@ -82,6 +92,7 @@ var composeCouplet = function() {
       addWord();
     }
 
+    // On second line, rhyme will be set and must be matched
     if (rhyme) {
       word = findRhyme();
       line += ' ' + word.word;
@@ -97,5 +108,5 @@ var composeCouplet = function() {
     return line;
   };
 
-  return writeLine() + '\n' + writeLine() + randElem( ['.', '.','?', '!'] );
+  return writeLine() + '\n' + writeLine() + randElem( ['.','.','?','!'] );
 };
