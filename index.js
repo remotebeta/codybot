@@ -54,51 +54,58 @@ function slackError (err) {
 function slackMessage (slack, message) {
   // console.log('A new message: ', message.text);
   // console.log(message.channel);
-
-  var msg = new Message({
-    type: message.type,
-    channel: message.channel,
-    user: message.user,
-    text: message.text,
-    ts: message.ts,
-    team: message.team
-  });
-
-  msg.save(function (err, msg) {
-    if(err) {
-      return console.log(err);
-    }
-
-    var channel = slack.getChannelGroupOrDMByID(message.channel);
-
-    var tagged = false;
-    var msgArr = message.text.split(' ');
-
-    if(message.channel[0] === 'D') {
-      // Assuming a DM with codybot
-      tagged = true;
-    }
-
-    // Check to see if @codybot was tagged
-    ids.forEach(function (id) {
-      if(message.text.indexOf('<@' + id + '>') === 0) {
-        tagged = true;
-        msgArr.shift();
-      }
+  try {
+    var msg = new Message({
+      type: message.type,
+      channel: message.channel,
+      user: message.user,
+      text: message.text,
+      ts: message.ts,
+      team: message.team
     });
 
-    if(tagged) {
-      // codybot was tagged.
-
-      var cmd = msgArr.shift();
-      // console.log("cmd: ", cmd);
-      if(typeof commands[cmd] === 'function') {
-        commands[cmd](slack, msgArr, message);
-      } else {
-        channel.send('codybot doesn\'t recognize the command you specified. Teach him by submitting a PR!');
+    msg.save(function (err, msg) {
+      if(err) {
+        return console.log(err);
       }
-    }
-  });
+
+      var channel = slack.getChannelGroupOrDMByID(message.channel);
+
+      var tagged = false;
+      var msgArr = message.text.split(' ');
+
+      if(message.channel[0] === 'D') {
+        // Assuming a DM with codybot
+        tagged = true;
+      }
+
+      // Check to see if @codybot was tagged
+      ids.forEach(function (id) {
+        if(message.text.indexOf('<@' + id + '>') === 0) {
+          tagged = true;
+          msgArr.shift();
+        }
+      });
+
+      if(tagged) {
+        // codybot was tagged.
+
+        var cmd = msgArr.shift();
+        // console.log("cmd: ", cmd);
+        if(typeof commands[cmd] === 'function') {
+          commands[cmd](slack, msgArr, message);
+        } else {
+          channel.send('codybot doesn\'t recognize the command you specified. Teach him by submitting a PR!');
+        }
+      }
+    });
+  } catch (err) {
+    console.error(err);
+    var channel = slack.getChannelGroupOrDMByName('codydaig');
+    channel.send('CodyBot encountered an Error.');
+    channel.send(err);
+  }
+
 }
 
 function slackOpen(slack) {
