@@ -4,7 +4,8 @@
   "description": "Cody's Slack Bot. A child of sshbot.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "botkit": "0.0.5",
     "cassandra-driver": "^3.0.0",
     "mongoose": "^4.3.5",
-    "node-schedule": "^1.0.0"
+    "node-schedule": "^1.0.0",
+    "slack-client": "^1.5.1"
   }
 }
