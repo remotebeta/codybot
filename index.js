@@ -24,7 +24,7 @@ var rejectionSchema = mongoose.Schema({
 
 mongoose.model('Rejection', rejectionSchema);
 
-var commands = require('./lib/commands.js');
+var commands = require('./commands');
 var slack = require('./lib/slack.js');
 
 slack.students.on('open', function () {
