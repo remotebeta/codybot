@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/codydaig/codybot#readme",
   "dependencies": {
+    "botkit": "0.0.5",
     "cassandra-driver": "^3.0.0",
     "mongoose": "^4.3.5",
-    "node-schedule": "^1.0.0",
-    "slack-client": "^1.5.1"
+    "node-schedule": "^1.0.0"
   }
 }
