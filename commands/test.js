@@ -4,5 +4,5 @@ module.exports = test;
 
 function test(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByName('codydaig');
-  channel.send('<!codydaig> Testing!');
+  channel.send('<@codydaig> Testing!');
 }
