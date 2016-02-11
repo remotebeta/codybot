@@ -72,7 +72,7 @@ function slackMessage (slack, message) {
     var channel = slack.getChannelGroupOrDMByID(message.channel);
 
     if(!message.text) {
-      console.log(message);
+      // console.log(message);
       return;
     }
 
