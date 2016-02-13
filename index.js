@@ -100,6 +100,7 @@ console.log(commands);
 var controller = slack.controller;
 
 commands.beatbox(controller);
+commands.compose(controller);
 
 // controller.hears('hello', ['direct_mention'], function(bot, message) {
 //   bot.reply(message, 'why, hullo thur');

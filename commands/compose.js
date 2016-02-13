@@ -4,10 +4,10 @@ var words = require('./composeWords.json');
 
 module.exports = compose;
 
-function compose(slack, args, message) {
-  var channel = slack.getChannelGroupOrDMByID(message.channel);
-
-  channel.send(composeCouplet());
+function compose(controller) {
+  controller.hears('compose', ['direct_mention'], function(bot, message) {
+    bot.reply(message, composeCouplet());
+  });
 }
 
 // Parts of speech, and which parts may follow
