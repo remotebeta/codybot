@@ -94,11 +94,13 @@
 //   ids.push(slack.self.id);
 // }
 
-// var slack = require('./lib/slack.js');
+var slack = require('./lib/slack.js');
 var commands = require('./commands');
 console.log(commands);
-// var controller = slack.controller;
+var controller = slack.controller;
 
-// controller.hears('hello', ['direct_message','direct_mention','mention'], function(bot, message) {
+commands.beatbox(controller);
+
+// controller.hears('hello', ['direct_mention'], function(bot, message) {
 //   bot.reply(message, 'why, hullo thur');
 // })
