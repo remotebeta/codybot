@@ -2,7 +2,8 @@
 
 module.exports = yo;
 
-function yo(slack, args, message) {
-  var channel = slack.getChannelGroupOrDMByID(message.channel);
-  channel.send('Yo!');
+function yo(controller) {
+  controller.hears('yo', ['direct_mention'], function(bot, message) {
+    bot.reply(message, 'Yo!');
+  });
 }
