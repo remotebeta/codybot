@@ -1,8 +1,6 @@
 'use strict';
 
-module.exports = help;
-
-function help(slack, args, message) {
+module.exports = function help(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
   channel.send('I\'m codybot! \n\n\
     Usage: `@codybot: <command>`\n\n\
@@ -11,5 +9,5 @@ function help(slack, args, message) {
     reject <companyName> - Records that you were rejected from that company. \n\
     caps <@user> - Repeats that user\'s last message in this channel, in ALL CAPS \n\
     help - Prints this prompt \
-    ');
+  ');
 }

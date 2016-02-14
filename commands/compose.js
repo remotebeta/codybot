@@ -2,9 +2,7 @@
 
 var words = require('./composeWords.json');
 
-module.exports = compose;
-
-function compose(controller) {
+module.exports = function compose(controller) {
   controller.hears('compose', ['direct_mention'], function(bot, message) {
     bot.reply(message, composeCouplet());
   });
