@@ -1,5 +1,7 @@
 // 'use strict';
 
+var c = require('../lib/channels.js');
+
 var events = [];
 
 events.push({
