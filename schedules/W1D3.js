@@ -23,6 +23,12 @@ events.push({
 });
 
 events.push({
+  when: new Date(2016, 02, 02, 10, 00, 0),
+  who: c.juniors,
+  message: '<!channel> Congrats! SA0 is over. Time for video lectures. '
+});
+
+events.push({
   when: new Date(2016, 02, 02, 12, 10, 0),
   who: c.juniors,
   message: '<!channel> 5 minutes until Kitchen Time.'
