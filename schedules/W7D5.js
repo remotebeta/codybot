@@ -6,15 +6,15 @@ var date = require('../lib/date.js');
 var events = [];
 
 events.push({
-  when: date('W7D4', 09, 55),
+  when: date('W7D5', 16, 40),
   who: c.seniors,
-  message: '<!channel> Sprint Reflection in 5 Minutes!'
+  message: '<!channel> Junior/Senior Code Review in 5 minutes'
 });
 
 events.push({
-  when: date('W7D4', 09, 59),
+  when: date('W7D5', 16, 44),
   who: c.seniors,
-  message: '<!channel> Sprint Reflection in 1 Minute!'
+  message: '<!channel> Junior/Senior Code Review in 1 minute'
 });
 
 module.exports = events;
