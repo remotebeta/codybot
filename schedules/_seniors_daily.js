@@ -5,7 +5,6 @@ var d = require('../lib/daily.js');
 
 var events = [];
 
-// Daily Events
 events.push({
   when: d.daily855am,
   who: c.seniors,
