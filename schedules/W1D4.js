@@ -1,7 +1,7 @@
 // 'use strict';
 
 var c = require('../lib/channels.js');
-var date = require('./date.js');
+var date = require('../lib/date.js');
 
 var events = [];
 
