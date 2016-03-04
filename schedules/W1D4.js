@@ -1,11 +1,12 @@
 // 'use strict';
 
 var c = require('../lib/channels.js');
+var date = require('./date.js');
 
 var events = [];
 
 events.push({
-  when: new Date(2016, 02, 03, 08, 45, 0),
+  when: date('W1D4', 08, 45),
   who: c.juniors,
   message: '<!channel> Townhall in 15 minutes. Post your questions here: https://townhall.makerpass.com/'
 });
