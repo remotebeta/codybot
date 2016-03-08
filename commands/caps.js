@@ -2,12 +2,13 @@
 
 var mongoose = require('mongoose');
 
-var Message = mongoose.model('Message');
+// var Message = mongoose.model('Message');
 
 module.exports = caps;
 
 function caps(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
+  return channel.send('This command is temporarily unavailable.');
   var back2 = false;
   var userID;
 

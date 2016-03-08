@@ -2,12 +2,13 @@
 
 var mongoose = require('mongoose');
 
-var Rejection = mongoose.model('Rejection');
+// var Rejection = mongoose.model('Rejection');
 
 module.exports = reject;
 
 function reject(slack, args, message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
+  return channel.send('This command is temporarily unavailable.');
 
   var companyName = args[0];
   var rejection = new Rejection({
@@ -27,7 +28,7 @@ function reject(slack, args, message) {
         if (err) {
           return console.error(err);
         }
-        
+
         channel.send('Sounds like you\'re too awesome for ' + rejection.companyName + ' anyways!');
       });
     }
