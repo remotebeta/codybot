@@ -2,27 +2,27 @@
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:4321/codybot');
+// mongoose.connect('mongodb://localhost:4321/codybot');
 
 var ids = [];
 
-var messageSchema = mongoose.Schema({
-  type: String,
-  channel: String,
-  user: String,
-  text: String,
-  ts: String, // TimeStamp
-  team: String
-});
-
-var Message = mongoose.model('Message', messageSchema);
-
-var rejectionSchema = mongoose.Schema({
-  companyName: String,
-  user: String
-});
-
-mongoose.model('Rejection', rejectionSchema);
+// var messageSchema = mongoose.Schema({
+//   type: String,
+//   channel: String,
+//   user: String,
+//   text: String,
+//   ts: String, // TimeStamp
+//   team: String
+// });
+//
+// var Message = mongoose.model('Message', messageSchema);
+//
+// var rejectionSchema = mongoose.Schema({
+//   companyName: String,
+//   user: String
+// });
+//
+// mongoose.model('Rejection', rejectionSchema);
 
 var commands = require('./commands');
 var slack = require('./lib/slack.js');
@@ -55,19 +55,19 @@ function slackError (err) {
 function slackMessage (slack, message) {
   // console.log('A new message: ', message.text);
   // console.log(message.channel);
-  var msg = new Message({
-    type: message.type,
-    channel: message.channel,
-    user: message.user,
-    text: message.text,
-    ts: message.ts,
-    team: message.team
-  });
+  // var msg = new Message({
+  //   type: message.type,
+  //   channel: message.channel,
+  //   user: message.user,
+  //   text: message.text,
+  //   ts: message.ts,
+  //   team: message.team
+  // });
 
-  msg.save(function (err, msg) {
-    if(err) {
-      return console.log(err);
-    }
+  // msg.save(function (err, msg) {
+  //   if(err) {
+  //     return console.log(err);
+  //   }
 
     var channel = slack.getChannelGroupOrDMByID(message.channel);
 
@@ -103,7 +103,7 @@ function slackMessage (slack, message) {
         channel.send('I don\'t recognize the command you specified. Teach me by submitting a PR!');
       }
     }
-  });
+  // });
 
 }
 
