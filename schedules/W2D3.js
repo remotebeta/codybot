@@ -8,13 +8,13 @@ var events = [];
 events.push({
   when: date('W2D3', 09, 55),
   who: c.juniors,
-  message: '<!channel> 5 Minutes until Sprint Reflection. Check the cal for the specific link!'
+  message: '<!channel> 5 Minutes until Sprint Reflection. https://zoom.us/j/685772​608'
 });
 
 events.push({
   when: date('W2D3', 09, 59),
   who: c.juniors,
-  message: '<!channel> 1 Minute until Sprint Reflection. Check the cal for the specific link!'
+  message: '<!channel> 1 Minute until Sprint Reflection. https://zoom.us/j/685772​608'
 });
 
 events.push({
