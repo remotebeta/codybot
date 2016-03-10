@@ -11,6 +11,7 @@ events.push({
   message: '<!channel> Good Morning!! Let\'s kick this morning off right. https://zoom.us/j/685772​608'
 });
 
+/* Removing for split blinky dancer presentations 
 events.push({
   when: d.daily859am,
   who: c.juniors,
@@ -22,7 +23,7 @@ events.push({
   who: c.juniors,
   message: '<!channel> Student Presentations in 5 minutes. https://zoom.us/j/525181230'
 });
-
+*/
 events.push({
   when: d.daily629pm,
   who: c.juniors,
