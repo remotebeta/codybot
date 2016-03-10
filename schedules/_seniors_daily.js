@@ -16,7 +16,7 @@ events.push({
   who: c.seniors,
   message: '<!channel> Hurry! Kick-off in 1 minute. https://zoom.us/j/525181230'
 });
-
+/* Removing for blinky dancer presentations
 events.push({
   when: d.daily625pm,
   who: c.seniors,
@@ -28,5 +28,5 @@ events.push({
   who: c.seniors,
   message: '<!channel> Student Presentations in 1 minute. https://zoom.us/j/525181230'
 });
-
+*/
 module.exports = events;
