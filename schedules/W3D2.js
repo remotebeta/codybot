@@ -12,13 +12,13 @@ events.push({
 });
 
 events.push({
-  when: date('W3D2', 15, 10),
+  when: date('W3D2', 16, 55),
   who: c.juniors,
   message: '<!channel> 5 Minutes until TownHall. https://zoom.us/j/685772​608'
 });
 
 events.push({
-  when: date('W3D2', 15, 14),
+  when: date('W3D2', 16, 59),
   who: c.juniors,
   message: '<!channel> 1 Minute until TownHall. https://zoom.us/j/685772​608'
 });
