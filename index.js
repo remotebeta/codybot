@@ -1,6 +1,14 @@
 // 'use strict';
 
 var mongoose = require('mongoose');
+var schedule = require('node-schedule');
+var exec = require('child_process').exec;
+
+schedule.scheduleJob('* 1 * * *', function(){
+  exec('pm2 restart codybot', function (err, stderr, stdout) {
+    // Pointless because this process is being killed
+  });
+});
 
 // mongoose.connect('mongodb://localhost:4321/codybot');
 
