@@ -54,13 +54,13 @@ events.push({
 });
 
 events.push({
-  when: date('W6D1', 16, 25),
+  when: date('W6D1', 16, 55),
   who: c.juniors,
   message: '<!channel> 5 Minutes until Greenfield Brainstorming. https://zoom.us/j/685772​608'
 });
 
 events.push({
-  when: date('W6D1', 16, 29),
+  when: date('W6D1', 16, 59),
   who: c.juniors,
   message: '<!channel> 1 Minute until Greenfield Brainstorming. https://zoom.us/j/685772​608'
 });
