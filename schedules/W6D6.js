@@ -6,13 +6,13 @@ var date = require('../lib/date.js');
 var events = [];
 
 events.push({
-  when: date('W6D6', 09, 55),
+  when: date('W6D6', 08, 55),
   who: c.juniors,
   message: '<!channel> 5 Minutes until Summary Assessment Kickoff. https://zoom.us/j/685772​608'
 });
 
 events.push({
-  when: date('W6D6', 09, 59),
+  when: date('W6D6', 08, 59),
   who: c.juniors,
   message: '<!channel> 1 Minute until Summary Assessment Kickoff. https://zoom.us/j/685772​608'
 });
