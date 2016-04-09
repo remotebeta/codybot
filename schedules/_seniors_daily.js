@@ -4,7 +4,7 @@ var c = require('../lib/channels.js');
 var d = require('../lib/daily.js');
 
 var events = [];
-
+/*
 events.push({
   when: d.daily855am,
   who: c.seniors,
@@ -28,5 +28,5 @@ events.push({
   who: c.seniors,
   message: '<!channel> Student Presentations in 1 minute. https://zoom.us/j/525181230'
 });
-
+*/
 module.exports = events;

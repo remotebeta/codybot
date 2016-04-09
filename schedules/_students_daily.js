@@ -10,7 +10,7 @@ var events = [];
 //   who: c.everyone,
 //   message: '<!channel> Good Morning Hack Reactor Remote! Remember, today is a great day to have an awesome day!'
 // });
-
+/*
 events.push({
   when: d.daily1230pm,
   who: c.students,
@@ -22,5 +22,5 @@ events.push({
   who: c.students,
   message: '<!channel> Dinner Time!'
 });
-
+*/
 module.exports = events;
