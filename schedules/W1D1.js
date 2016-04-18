@@ -6,6 +6,12 @@ var date = require('../lib/date.js');
 var events = [];
 
 events.push({
+  when: date('W1D1', 08, 40),
+  who: c.juniors,
+  message: '<!channel> Good Morning and Welcome to the Hack Reactor Remote Slack! Allow me to introduce myself. My name is codybot. I ws created to bring engineers back to civilization after being buried in code (aka reminding you of live events). '
+});
+
+events.push({
   when: date('W1D1', 12, 05),
   who: c.juniors,
   message: '<!channel> 5 minutes until Kickoff to Kitchen Time.	https://zoom.us/j/685772​608'
