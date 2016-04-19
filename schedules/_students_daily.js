@@ -5,11 +5,11 @@ var d = require('../lib/daily.js');
 
 var events = [];
 
-events.push({
-  when: d.daily800am,
-  who: c.everyone,
-  message: '<!channel> Good Morning Hack Reactor Remote! Remember, today is a great day to have an awesome day!'
-});
+// events.push({
+//   when: d.daily800am,
+//   who: c.everyone,
+//   message: '<!channel> Good Morning Hack Reactor Remote! Remember, today is a great day to have an awesome day!'
+// });
 
 events.push({
   when: d.daily1230pm,

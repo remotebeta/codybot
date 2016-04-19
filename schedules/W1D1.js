@@ -8,7 +8,7 @@ var events = [];
 events.push({
   when: date('W1D1', 08, 46),
   who: c.juniors,
-  message: '<!channel> Good Morning and Welcome to the Hack Reactor Remote Slack! Allow me to introduce myself. My name is codybot. I ws created to bring engineers back to civilization after being buried in code (aka reminding you of live events). To kick things off, here is a 15 minute reminder for the first event of the day. So grab your coffee and get pumped! I\'ll post again in 10 minutes with the zoom link. :-D'
+  message: '<!channel> Good Morning and Welcome to the Hack Reactor Remote Slack! Allow me to introduce myself. My name is codybot. I was created to bring engineers back to civilization after being buried in code (aka reminding you of live events). To kick things off, here is a 15 minute reminder for the first event of the day. So grab your coffee and get pumped! I\'ll post again in 10 minutes with the zoom link. :-D'
 });
 
 events.push({
