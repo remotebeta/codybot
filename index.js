@@ -36,7 +36,7 @@ var commands = require('./commands');
 var slack = require('./lib/slack.js');
 
 slack.students.on('open', function () {
-    require('./lib/scheduler.js')();
+    // require('./lib/scheduler.js')();
     slackOpen(slack.students);
   });
 slack.students.on('message', function (message) {
