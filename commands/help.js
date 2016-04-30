@@ -1,15 +1,15 @@
 'use strict';
 
-module.exports = help;
-
-function help(slack, args, message) {
-  var channel = slack.getChannelGroupOrDMByID(message.channel);
-  channel.send('I\'m codybot! \n\n\
-    Usage: `@codybot: <command>`\n\n\
-    Commands: \n\
-    moo - Moos the current channel 5 times. Limit one use per channel per 30 min. \n\
-    reject <companyName> - Records that you were rejected from that company. \n\
-    caps <@user> - Repeats that user\'s last message in this channel, in ALL CAPS \n\
-    help - Prints this prompt \
-    ');
+module.exports = function help(controller) {
+  controller.hears('help', ['direct_mention'], function(bot, message) {
+    bot.reply(message,
+`I'm codybot!
+Usage: \`@codybot: <command>\`
+Commands:
+moo - Moos the current channel 5 times. Limit one use per channel per 30 min.
+reject <companyName> - Records that you were rejected from that company.
+caps <@user> - Repeats that user's last message in this channel, in ALL CAPS
+help - Prints this prompt`
+    );
+  });
 }
