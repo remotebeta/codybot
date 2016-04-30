@@ -19,7 +19,7 @@ module.exports = function buzz(controller) {
       mooTracker[message.channel] = new Date();
       for(var i=0; i < 5; i++) {
         setTimeout(function () {
-          channel.send('<!channel> bzzzzzz!!!!!');
+          bot.reply(message, '<!channel> bzzzzzz!!!!!');
         }, i * 2000);
       }
     }
