@@ -12,3 +12,6 @@ module.exports = function example(controller) {
 }
 ```
 
+check out [botkit](https://github.com/howdyai/botkit) for more information!
+
+
