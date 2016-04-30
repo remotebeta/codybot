@@ -3,7 +3,7 @@
 var mooTracker = {};
 
 module.exports = function buzz(controller) {
-  controller.hears('moo', ['direct_mention'], function(bot, message) {
+  controller.hears('buzz', ['direct_mention'], function(bot, message) {
     var okayToSend = true;
     var lastVisit = mooTracker[message.channel];
     if (lastVisit) {
