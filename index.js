@@ -21,5 +21,5 @@ for (var command in commands) {
 }
 
 for (var command in staffCommands) {
-  commands[command](staffController);
+  staffCommands[command](staffController);
 }
