@@ -1,5 +1,6 @@
 var slack = require('./lib/slack.js');
 var commands = require('./commands');
+var staffCommands = require('./staffCommands');
 var controller = slack.controller;
 var staffController = slack.staffController;
 
@@ -16,5 +17,9 @@ var staffController = slack.staffController;
 // }
 for (var command in commands) {
   commands[command](controller);
+  commands[command](staffController);
+}
+
+for (var command in staffCommands) {
   commands[command](staffController);
 }
