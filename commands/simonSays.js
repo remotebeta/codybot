@@ -14,7 +14,8 @@ module.exports = function simonSays(controller) {
 
     var simonAsk = function(response, convo) {
       var simonSays = [randElem(prefix), randElem(commands)];
-      convo.ask(simonSays, function(response, convo) {
+      var simonString = simonSays[0] + simonSays[1];
+      convo.ask(simonString, function(response, convo) {
         if (simonSays[0] && response.text === simonSays[1]) {
           convo.say('Good job!');
           simonAsk(response, convo);
@@ -28,4 +29,3 @@ module.exports = function simonSays(controller) {
     bot.startConversation(message, simonAsk);
   });
 }
-
