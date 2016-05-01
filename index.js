@@ -1,6 +1,8 @@
 var slack = require('./lib/slack.js');
 var commands = require('./commands');
+var staffCommands = require('./staffCommands');
 var controller = slack.controller;
+var staffController = slack.staffController;
 
 // Commands will be an object that looks something like this:
 // {
@@ -15,4 +17,9 @@ var controller = slack.controller;
 // }
 for (var command in commands) {
   commands[command](controller);
+  commands[command](staffController);
+}
+
+for (var command in staffCommands) {
+  commands[command](staffController);
 }
