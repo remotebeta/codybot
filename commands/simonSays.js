@@ -1,9 +1,16 @@
 'use strict';
 
-var directions = require('./simonDirections.json');
+var prefix = [ "Simon says type the word... ", "Type the word... " ];
+var commands = [ "YES", "NO", "GO", "STOP" ];
 
-module.exports = function compose(controller) {
-  controller.hears('simon says', ['direct_mention'], function(bot, message) {
+// Returns a random element from an array
+var randElem = function(array) {
+  var index = Math.floor(Math.random() * array.length);
+  return array[index];
+};
+
+module.exports = function simonSays(controller) {
+  controller.hears('simonsays', ['direct_mention'], function(bot, message) {
 
     var simonAsk = function(response, convo) {
       var simonSays = [randElem(prefix), randElem(commands)];
@@ -22,12 +29,3 @@ module.exports = function compose(controller) {
   });
 }
 
-var prefix = [ "Simon says type the word... ", "Type the word... " ];
-
-var commands = [ "YES", "NO", "GO", "STOP" ];
-
-// Returns a random element from an array
-var randElem = function(array) {
-  var index = Math.floor(Math.random() * array.length);
-  return array[index];
-};
