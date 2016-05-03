@@ -21,8 +21,8 @@ module.exports = function moo(controller) {
       for (var i = 0; i < 5; i++) {
         setTimeout(function () {
           bot.reply(message, {
-            text: '<!channel> Mooooo!!!!!!',
-            icon_emoji: ':cow:'
+            text: '<!channel> Mooooo!!!!!!'
+            // icon_emoji: ':cow:'
           });
         }, i * 2000);
       }
