@@ -4,6 +4,17 @@ var mooTracker = {};
 
 module.exports = function buzz(controller) {
   controller.hears('buzz', ['direct_mention'], function(bot, message) {
+
+    bot.api.reactions.add({
+        timestamp: message.ts,
+        channel: message.channel,
+        name: 'bee',
+    }, function(err, res) {
+        if (err) {
+            bot.botkit.log('Failed to add emoji reaction :(', err);
+        }
+    });
+
     var okayToSend = true;
     var lastVisit = mooTracker[message.channel];
     if (lastVisit) {
