@@ -3,6 +3,7 @@ var commands = require('./commands');
 var staffCommands = require('./staffCommands');
 var controller = slack.controller;
 var staffController = slack.staffController;
+var opSparkController = slack.opSparkController
 
 var MongoClient = require('mongodb').MongoClient;
 
