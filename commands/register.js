@@ -14,9 +14,9 @@ module.exports = function register(controller, db) {
       bot.reply(message, 'Hello ' + user.real_name + '!');
       bot.startPrivateConversation(message, function(response, convo) {
         convo.ask('What is your cohort? Please use all caps. ie.) HRR16', function(response, convo){
-          convo.ask('What is your thesis group? Make sure this matches your slack channel name EXACTLY.', function(response, convo) {
+          convo.ask('What is your group name? Make sure this matches your slack channel name EXACTLY.', function(response, convo) {
             user.cohort = convo.responses['What is your cohort? Please use all caps. ie.) HRR16'].text;
-            user.thesisGroup = convo.responses['What is your thesis group? Make sure this matches your slack channel name EXACTLY.'].text;
+            user.greenfieldGroup = convo.responses['What is your group name? Make sure this matches your slack channel name EXACTLY.'].text;
             users.insertMany([user], function(err, result){
               if(err) {
                 convo.say('Whoops. Something happened and your info was unable to be saved to the database. Please try again. If the error persists please contact remote.beta.communication@')
