@@ -12,17 +12,17 @@ module.exports = function reboot(controller) {
       console.error(stderr);
       console.log(stdout);
 
-      exec('pm2 restart codybotv2', function (err, stdout, stderr) {
-        console.error(err);
-        console.error(stderr);
-        console.log(stdout);
+      // exec('pm2 restart codybotv2', function (err, stdout, stderr) {
+      //   console.error(err);
+      //   console.error(stderr);
+      //   console.log(stdout);
         
-        exec('pm2 restart codybot', function (err, stdout, stderr) {
-          console.error(err);
-          console.error(stderr);
-          console.log(stdout);
-        });
-      });
+      //   exec('pm2 restart codybot', function (err, stdout, stderr) {
+      //     console.error(err);
+      //     console.error(stderr);
+      //     console.log(stdout);
+      //   });
+      // });
 
     });
 
