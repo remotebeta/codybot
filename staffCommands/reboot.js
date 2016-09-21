@@ -5,6 +5,8 @@ var exec = require('child_process').exec;
 module.exports = function reboot(controller) {
   controller.hears('reboot', ['direct_mention'], function(bot, message) {
     bot.reply(message, 'codybot is going down and hopefully coming back up.');
+    
+    console.log('Rebooting');
     exec('ssh codybot@scheduler.codybot.com "pm2 restart scheduler"', function (err, stdout, stderr) {
       console.error(err);
       console.error(stderr);
