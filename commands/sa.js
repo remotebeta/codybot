@@ -3,7 +3,7 @@
 var exec = require('child_process').exec;
 
 module.exports = function reboot(controller) {
-  controller.hears('summary assessment', ['direct_message','mention','direct_mention', 'message_received'], function(bot, message) {
+  controller.hears('technical assessment', ['direct_message','mention','direct_mention', 'message_received'], function(bot, message) {
     bot.reply(message, 'no comment');
     // console.log(message._client.channels.C0LFUN4F2.name);
   });
