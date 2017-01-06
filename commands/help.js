@@ -11,6 +11,7 @@ buzz - Buzz the current channel 5 times. Limit one use per chanel per 30 min.
 morning - Say good morning!
 compose - Print out a poem
 beatbox - Make Codybot drop a sick beat
+scat - Bring out Codybot's inner Scatman John
 help - Print this prompt`
     );
   });
