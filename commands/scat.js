@@ -15,15 +15,14 @@ module.exports = function scat(controller) {
     var randomOption = Math.floor(Math.random() * media.length);
 
     var botReply =
-      `Ski-bi dibby dib yo da dub dub! Yo da dub dub!
-      Ski-bi dibby dib yo da dub dub! Yo da dub dub!
-      (I'm the Scatman!)
-      Ba-da-ba-da-ba-be bop bop bodda bope! Bop ba bodda bope!
-      Be bop ba bodda bope! Bop ba bodda!
-      a-da-ba-da-ba-be bop ba bodda bope! Bop ba bodda bope!
-      Be bop ba bodda bope! Bop ba bodda bope!
-      ${media[randomOption]}`;
-
+`Ski-bi dibby dib yo da dub dub! Yo da dub dub!
+Ski-bi dibby dib yo da dub dub! Yo da dub dub!
+(I'm the Scatman!)
+Ba-da-ba-da-ba-be bop bop bodda bope! Bop ba bodda bope!
+Be bop ba bodda bope! Bop ba bodda!
+Ba-da-ba-da-ba-be bop ba bodda bope! Bop ba bodda bope!
+Be bop ba bodda bope! Bop ba bodda bope!
+${media[randomOption]}`;
 
     bot.reply(message, botReply);
   });
