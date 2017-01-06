@@ -9,7 +9,7 @@ module.exports = function scat(controller) {
     // Scatman Vine by Mariana Machine
     var vine1 = 'https://vine.co/v/ijJA67XqqKv';
     // Scatman Vine link by Waly Dia
-    var vine2 = 'https://vine.co/v/OwKpVbaQwEV'
+    var vine2 = 'https://vine.co/v/OwKpVbaQwEV';
 
     var media = [youtube, giphy, vine1, vine2];
     var randomOption = Math.floor(Math.random() * media.length);
