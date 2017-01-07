@@ -11,6 +11,9 @@ buzz - Buzz the current channel 5 times. Limit one use per chanel per 30 min.
 morning - Say good morning!
 compose - Print out a poem
 beatbox - Make Codybot drop a sick beat
+flip a coin - responds Heads or Tails
+number between [some number] and [some number]
+magic8ball - Classic Magic 8 Ball
 help - Print this prompt`
     );
   });
