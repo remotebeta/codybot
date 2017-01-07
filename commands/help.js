@@ -12,7 +12,7 @@ morning - Say good morning!
 compose - Print out a poem
 beatbox - Make Codybot drop a sick beat
 flip a coin - responds Heads or Tails
-number between [some number] and [some number]
+number between [some number] and [some number] - Gives whole number between two numbers inclusively
 magic8ball - Classic Magic 8 Ball
 help - Print this prompt`
     );
