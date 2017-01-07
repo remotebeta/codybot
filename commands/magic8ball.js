@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function magic8ball(controller) {
-  controller.hears('magic 8 ball', ['direct_mention'], function(bot, message) {
+  controller.hears('magic8ball', ['direct_mention'], function(bot, message) {
     var a = Math.floor(Math.random()*20+1);
 
     if (a===1)
