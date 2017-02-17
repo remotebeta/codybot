@@ -2,7 +2,7 @@
 
 module.exports = function joke(controller) {
   controller.hears('joke', ['direct_mention'], function(bot, message) {
-    var tell = [
+    var tellQ = [
       'Q: How do you comfort a JavaScript bug? A: You console it',
       'Q: Why was the JavaScript developer sad? A: Because he didn’t Node how to Express himself',
       'Q: Why did the developer go broke? A: Because he used up all his cache',
@@ -14,7 +14,25 @@ module.exports = function joke(controller) {
       'A SQL query goes into a bar, walks up to two tables and asks, "Can I join you?'
     ];
 
+    var tellA = [
+      'A: You console it',
+      'A: Because he didn’t Node how to Express himself',
+      'A: Because he used up all his cache',
+      'A: Inheritance',
+      'A: Nerdic',
+      'A: Foo Bar',
+      'A: He didn\'t get arrays.',
+      'A: None, that\'s a hardware problem',
+      null
+    ];
+
     var joke = Math.floor(Math.random * tell.length);
-    bot.reply(message, tell[joke]);
+    bot.reply(message, tellQ[joke]);
+
+    setTimeout(() => {
+      if(tellA[joke] !== null) {
+        bot.reply(message, tellA[joke]);
+      }
+    }, 5000);
   });
 }
