@@ -26,7 +26,7 @@ module.exports = function joke(controller) {
       null
     ];
 
-    var joke = Math.floor(Math.random * tellQ.length);
+    var joke = Math.floor(Math.random() * tellQ.length);
     bot.reply(message, tellQ[joke]);
 
     setTimeout(() => {
