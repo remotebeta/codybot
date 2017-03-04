@@ -11,6 +11,7 @@ module.exports = function joke(controller) {
       'Q: What\'s a programmer\'s favorite place to hang out?',
       'Q: Why did the programmer quit his job?',
       'Q: How many Computer Scientist students does it take to change a lightbulb?',
+      'Q: Why did the EMTs travel in pairs of two?',
       'A SQL query goes into a bar, walks up to two tables and asks, "Can I join you?'
     ];
 
@@ -22,6 +23,7 @@ module.exports = function joke(controller) {
       'A: Nerdic',
       'A: Foo Bar',
       'A: He didn\'t get arrays.',
+      'A: Because they wanted to be pair-a-medics',
       'A: None, that\'s a hardware problem',
       null
     ];
