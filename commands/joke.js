@@ -23,8 +23,8 @@ module.exports = function joke(controller) {
       'A: Nerdic',
       'A: Foo Bar',
       'A: He didn\'t get arrays.',
-      'A: Because they wanted to be pair-a-medics',
       'A: None, that\'s a hardware problem',
+      'A: Because they wanted to be pair-a-medics',
       null
     ];
 
