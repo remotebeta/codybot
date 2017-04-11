@@ -59,7 +59,7 @@ function step5(response, convo) {
 
   standups.insertMany([obj], function(err, result) {
     if(err) {
-      convo.say('Whoops. Something happened and your standup was unable to be saved to the database. Please try again. If the error persists please contact remote.beta.communication@')
+      convo.say('Whoops. Something happened and your standup was unable to be saved to the database. Please try again. If the error persists please contact hrr.communication@hackreactor.com')
     } else {
       convo.say('Thank you!');
     }
