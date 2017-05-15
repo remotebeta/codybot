@@ -26,6 +26,7 @@ MongoClient.connect(url, function(err, db) {
     commands[command](staffController, db);
     commands[command](opSparkController, db);
     commands[command](hrController, db);
+    commands[command](rptController, db);
   }
 
   for (var command in staffCommands) {
