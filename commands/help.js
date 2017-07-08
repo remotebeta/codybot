@@ -15,6 +15,7 @@ scat - Bring out Codybot's inner Scatman John
 flip a coin - Heads or Tails
 number between [some number] and [some number] - Gives whole number between two numbers inclusively
 magic8ball - Classic Magic 8 Ball
+meow – Make Codybot meow
 help - Print this prompt`
     );
   });
