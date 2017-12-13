@@ -5,6 +5,7 @@ var controller = slack.controller;
 var staffController = slack.staffController;
 var opSparkController = slack.opSparkController;
 var hrController = slack.hrController;
+var rptController = slack.rptController;
 
 var MongoClient = require('mongodb').MongoClient;
 
@@ -26,6 +27,7 @@ MongoClient.connect(url, function(err, db) {
     commands[command](staffController, db);
     commands[command](opSparkController, db);
     commands[command](hrController, db);
+    commands[command](rptController, db);
   }
 
   for (var command in staffCommands) {
