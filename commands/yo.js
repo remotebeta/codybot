@@ -6,6 +6,9 @@ module.exports = function yo(controller) {
     slackApi.getChannelName(message.channel, controller)
       .then(function (name) {
         bot.reply(message, `Yo! (inside the ${name} channel)`);
+      })
+      .catch(function (err) {
+        console.error(err);
       });
   });
 }
