@@ -1,5 +1,7 @@
 'use strict';
 
+var slackApi = require('../lib/slackApi');
+
 var mooTracker = {};
 
 module.exports = function moo(controller) {
