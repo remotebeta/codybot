@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/codydaig/codybot#readme",
   "dependencies": {
+    "axios": "^0.17.1",
     "botkit": "0.0.5",
     "cassandra-driver": "^3.0.0",
     "glob": "^6.0.4",
