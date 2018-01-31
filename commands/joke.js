@@ -12,6 +12,7 @@ module.exports = function joke(controller) {
       'Q: Why did the programmer quit his job?',
       'Q: How many Computer Scientist students does it take to change a lightbulb?',
       'Q: Why did the EMTs travel in pairs of two?',
+      'Q: What did Node.js say to Express.js when Express.js asked Node.js to hurry things up in an express manner?',
       'A SQL query goes into a bar, walks up to two tables and asks, "Can I join you?'
     ];
 
@@ -25,6 +26,7 @@ module.exports = function joke(controller) {
       'A: He didn\'t get arrays.',
       'A: None, that\'s a hardware problem',
       'A: Because they wanted to be pair-a-medics',
+      'A: There is Node way in callback hell that we will get to go that route, even though you requested it; I promise.',
       null
     ];
 
