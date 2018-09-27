@@ -2,8 +2,8 @@ var slack = require('./lib/slack.js');
 var commands = require('./commands');
 var staffCommands = require('./staffCommands');
 var controller = slack.controller;
-var staffController = slack.staffController;
-var opSparkController = slack.opSparkController;
+//var staffController = slack.staffController;
+//var opSparkController = slack.opSparkController;
 var hrController = slack.hrController;
 var rptController = slack.rptController;
 
@@ -24,14 +24,14 @@ MongoClient.connect(url, function(err, db) {
   // }
   for (var command in commands) {
     commands[command](controller, db);
-    commands[command](staffController, db);
-    commands[command](opSparkController, db);
+    //commands[command](staffController, db);
+    //commands[command](opSparkController, db);
     commands[command](hrController, db);
     commands[command](rptController, db);
   }
 
   for (var command in staffCommands) {
-    staffCommands[command](staffController, db);
+    //staffCommands[command](staffController, db);
     staffCommands[command](hrController, db);
   }
 });
