@@ -7,17 +7,17 @@ var standups;
 
 module.exports = function reboot(controller, db) {
 
-  standups = db.collection('standups');
+//   standups = db.collection('standups');
 
-  controller.hears(['standup'], ['direct_message','mention','direct_mention', 'message_received'], function(bot, message) {
-    bot.api.users.info({user: message.user}, function (err, user) {
-      $$users[message.user] = user.user;
-      // console.log(user);
-      // convo.$user = user;
-      bot.reply(message, 'Hello ' + user.user.real_name + '!');
-      bot.startPrivateConversation(message, step1);
-    });
-  });
+//   controller.hears(['standup'], ['direct_message','mention','direct_mention', 'message_received'], function(bot, message) {
+//     bot.api.users.info({user: message.user}, function (err, user) {
+//       $$users[message.user] = user.user;
+//       // console.log(user);
+//       // convo.$user = user;
+//       bot.reply(message, 'Hello ' + user.user.real_name + '!');
+//       bot.startPrivateConversation(message, step1);
+//     });
+//   });
 };
 
 function step1(response, convo) {
